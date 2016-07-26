@@ -1,0 +1,6 @@
+framework module YCMatrix {
+  umbrella header "YCMatrix.h"
+
+  export *
+  module * { export * }
+}

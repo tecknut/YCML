@@ -1,0 +1,2810 @@
+BCSymbolMap Version: 1.0
+-[YCIndividual init]
+-[YCIndividual initWithRandomValuesInBounds:]
+-[YCIndividual initWithVariableCount:]
+-[YCIndividual constraintViolation]
+-[YCIndividual copyWithZone:]
+-[YCIndividual initWithCoder:]
+-[YCIndividual encodeWithCoder:]
+-[YCIndividual decisionVariableValues]
+-[YCIndividual setDecisionVariableValues:]
+-[YCIndividual objectiveFunctionValues]
+-[YCIndividual setObjectiveFunctionValues:]
+-[YCIndividual constraintValues]
+-[YCIndividual setConstraintValues:]
+-[YCIndividual evaluated]
+-[YCIndividual setEvaluated:]
+-[YCIndividual .cxx_destruct]
+OBJC_CLASSLIST_REFERENCES_$_
+OBJC_METH_VAR_NAME_
+OBJC_SELECTOR_REFERENCES_
+OBJC_METH_VAR_NAME_.1
+OBJC_SELECTOR_REFERENCES_.2
+OBJC_METH_VAR_NAME_.3
+OBJC_SELECTOR_REFERENCES_.4
+OBJC_METH_VAR_NAME_.5
+OBJC_SELECTOR_REFERENCES_.6
+OBJC_METH_VAR_NAME_.7
+OBJC_SELECTOR_REFERENCES_.8
+OBJC_METH_VAR_NAME_.9
+OBJC_SELECTOR_REFERENCES_.10
+OBJC_METH_VAR_NAME_.11
+OBJC_SELECTOR_REFERENCES_.12
+OBJC_CLASSLIST_SUP_REFS_$_
+OBJC_METH_VAR_NAME_.13
+OBJC_SELECTOR_REFERENCES_.14
+OBJC_METH_VAR_NAME_.15
+OBJC_SELECTOR_REFERENCES_.16
+OBJC_METH_VAR_NAME_.17
+OBJC_SELECTOR_REFERENCES_.18
+OBJC_METH_VAR_NAME_.19
+OBJC_SELECTOR_REFERENCES_.20
+OBJC_METH_VAR_NAME_.21
+OBJC_SELECTOR_REFERENCES_.22
+OBJC_METH_VAR_NAME_.23
+OBJC_SELECTOR_REFERENCES_.24
+OBJC_METH_VAR_NAME_.25
+OBJC_SELECTOR_REFERENCES_.26
+OBJC_METH_VAR_NAME_.27
+OBJC_SELECTOR_REFERENCES_.28
+OBJC_METH_VAR_NAME_.29
+OBJC_SELECTOR_REFERENCES_.30
+OBJC_METH_VAR_NAME_.31
+OBJC_SELECTOR_REFERENCES_.32
+OBJC_METH_VAR_NAME_.33
+OBJC_SELECTOR_REFERENCES_.34
+OBJC_METH_VAR_NAME_.35
+OBJC_SELECTOR_REFERENCES_.36
+.str
+_unnamed_cfstring_
+OBJC_METH_VAR_NAME_.37
+OBJC_SELECTOR_REFERENCES_.38
+.str.39
+_unnamed_cfstring_.40
+.str.41
+_unnamed_cfstring_.42
+.str.43
+_unnamed_cfstring_.44
+OBJC_METH_VAR_NAME_.45
+OBJC_SELECTOR_REFERENCES_.46
+OBJC_METH_VAR_NAME_.47
+OBJC_SELECTOR_REFERENCES_.48
+OBJC_METH_VAR_NAME_.49
+OBJC_SELECTOR_REFERENCES_.50
+OBJC_IVAR_$_YCIndividual._decisionVariableValues
+OBJC_IVAR_$_YCIndividual._objectiveFunctionValues
+OBJC_IVAR_$_YCIndividual._constraintValues
+OBJC_IVAR_$_YCIndividual._evaluated
+OBJC_CLASS_NAME_
+OBJC_METH_VAR_NAME_.51
+OBJC_METH_VAR_TYPE_
+OBJC_CLASS_NAME_.52
+l_OBJC_$_PROTOCOL_INSTANCE_METHODS_NSCopying
+l_OBJC_$_PROTOCOL_METHOD_TYPES_NSCopying
+l_OBJC_PROTOCOL_$_NSCopying
+l_OBJC_LABEL_PROTOCOL_$_NSCopying
+OBJC_METH_VAR_NAME_.53
+OBJC_METH_VAR_TYPE_.54
+OBJC_METH_VAR_TYPE_.55
+OBJC_METH_VAR_NAME_.56
+OBJC_METH_VAR_TYPE_.57
+OBJC_METH_VAR_TYPE_.58
+OBJC_CLASS_NAME_.59
+l_OBJC_$_PROTOCOL_INSTANCE_METHODS_NSCoding
+l_OBJC_$_PROTOCOL_METHOD_TYPES_NSCoding
+l_OBJC_PROTOCOL_$_NSCoding
+l_OBJC_LABEL_PROTOCOL_$_NSCoding
+l_OBJC_CLASS_PROTOCOLS_$_YCIndividual
+l_OBJC_METACLASS_RO_$_YCIndividual
+OBJC_CLASS_NAME_.60
+OBJC_METH_VAR_TYPE_.61
+OBJC_METH_VAR_TYPE_.62
+OBJC_METH_VAR_NAME_.63
+OBJC_METH_VAR_TYPE_.64
+OBJC_METH_VAR_NAME_.65
+OBJC_METH_VAR_TYPE_.66
+OBJC_METH_VAR_TYPE_.67
+OBJC_METH_VAR_TYPE_.68
+l_OBJC_$_INSTANCE_METHODS_YCIndividual
+OBJC_METH_VAR_NAME_.69
+OBJC_METH_VAR_TYPE_.70
+OBJC_METH_VAR_NAME_.71
+OBJC_METH_VAR_TYPE_.72
+OBJC_METH_VAR_NAME_.73
+OBJC_METH_VAR_NAME_.74
+l_OBJC_$_INSTANCE_VARIABLES_YCIndividual
+OBJC_PROP_NAME_ATTR_
+OBJC_PROP_NAME_ATTR_.75
+OBJC_PROP_NAME_ATTR_.76
+OBJC_PROP_NAME_ATTR_.77
+OBJC_PROP_NAME_ATTR_.78
+OBJC_PROP_NAME_ATTR_.79
+OBJC_PROP_NAME_ATTR_.80
+OBJC_PROP_NAME_ATTR_.81
+OBJC_PROP_NAME_ATTR_.82
+OBJC_PROP_NAME_ATTR_.83
+l_OBJC_$_PROP_LIST_YCIndividual
+l_OBJC_CLASS_RO_$_YCIndividual
+OBJC_LABEL_CLASS_$
+Apple LLVM version 7.3.0 (clang-703.0.29)
+-[YCIndividual .cxx_destruct]
+/Users/aegan/code/ML/YCML/YCML/Optimization/YCIndividual.m
+/Users/aegan/code/ML/YCML
+-[YCIndividual setEvaluated:]
+/Users/aegan/code/ML/YCML/YCML/Optimization/YCIndividual.h
+-[YCIndividual evaluated]
+-[YCIndividual setConstraintValues:]
+-[YCIndividual constraintValues]
+-[YCIndividual setObjectiveFunctionValues:]
+-[YCIndividual objectiveFunctionValues]
+-[YCIndividual setDecisionVariableValues:]
+-[YCIndividual decisionVariableValues]
+-[YCIndividual encodeWithCoder:]
+-[YCIndividual initWithCoder:]
+-[YCIndividual copyWithZone:]
+-[YCIndividual constraintViolation]
+-[YCIndividual initWithVariableCount:]
+-[YCIndividual initWithRandomValuesInBounds:]
+-[YCIndividual init]
+-[YCFFN activateWithMatrix:]
+-[YCFFN inputSize]
+-[YCFFN outputSize]
+-[YCFFN hiddenLayerCount]
+-[YCFFN layers]
+-[YCFFN setLayers:]
+-[YCFFN inputTransform]
+-[YCFFN setInputTransform:]
+-[YCFFN outputTransform]
+-[YCFFN setOutputTransform:]
+-[YCFFN .cxx_destruct]
+OBJC_IVAR_$_YCFFN._layers
+OBJC_IVAR_$_YCFFN._inputTransform
+OBJC_IVAR_$_YCFFN._outputTransform
+l_OBJC_METACLASS_RO_$_YCFFN
+OBJC_CLASS_NAME_.21
+OBJC_METH_VAR_NAME_.22
+OBJC_METH_VAR_TYPE_.23
+OBJC_METH_VAR_NAME_.24
+OBJC_METH_VAR_TYPE_.26
+OBJC_METH_VAR_TYPE_.27
+OBJC_METH_VAR_NAME_.28
+OBJC_METH_VAR_TYPE_.29
+OBJC_METH_VAR_NAME_.30
+l_OBJC_$_INSTANCE_METHODS_YCFFN
+OBJC_METH_VAR_NAME_.32
+OBJC_METH_VAR_TYPE_.33
+OBJC_METH_VAR_NAME_.34
+OBJC_METH_VAR_TYPE_.35
+OBJC_METH_VAR_NAME_.36
+l_OBJC_$_INSTANCE_VARIABLES_YCFFN
+OBJC_PROP_NAME_ATTR_.37
+OBJC_PROP_NAME_ATTR_.38
+OBJC_PROP_NAME_ATTR_.39
+OBJC_PROP_NAME_ATTR_.40
+OBJC_PROP_NAME_ATTR_.41
+OBJC_PROP_NAME_ATTR_.42
+OBJC_PROP_NAME_ATTR_.43
+l_OBJC_$_PROP_LIST_YCFFN
+l_OBJC_CLASS_RO_$_YCFFN
+-[YCFFN .cxx_destruct]
+/Users/aegan/code/ML/YCML/YCML/FFN/YCFFN.m
+-[YCFFN setOutputTransform:]
+/Users/aegan/code/ML/YCML/YCML/FFN/YCFFN.h
+-[YCFFN outputTransform]
+-[YCFFN setInputTransform:]
+-[YCFFN inputTransform]
+-[YCFFN setLayers:]
+-[YCFFN layers]
+-[YCFFN hiddenLayerCount]
+-[YCFFN outputSize]
+-[YCFFN inputSize]
+-[YCFFN activateWithMatrix:]
+-[YCHypervolumeMetric estimateHypervolumeForObjectiveFunctionVectors:targets:sampleSize:lowerReference:upperReference:]
+OBJC_CLASSLIST_REFERENCES_$_.7
+OBJC_METH_VAR_NAME_.8
+OBJC_SELECTOR_REFERENCES_.9
+OBJC_METH_VAR_NAME_.10
+OBJC_SELECTOR_REFERENCES_.11
+OBJC_METH_VAR_NAME_.12
+OBJC_SELECTOR_REFERENCES_.13
+l_OBJC_METACLASS_RO_$_YCHypervolumeMetric
+OBJC_METH_VAR_NAME_.14
+l_OBJC_$_INSTANCE_METHODS_YCHypervolumeMetric
+l_OBJC_CLASS_RO_$_YCHypervolumeMetric
+-[YCHypervolumeMetric estimateHypervolumeForObjectiveFunctionVectors:targets:sampleSize:lowerReference:upperReference:]
+/Users/aegan/code/ML/YCML/YCML/Optimization/Metrics/YCHypervolumeMetric.m
++[YCRpropTrainer optimizerClass]
+-[YCRpropTrainer init]
+OBJC_CLASSLIST_REFERENCES_$_.5
+OBJC_METH_VAR_NAME_.6
+OBJC_SELECTOR_REFERENCES_.7
+.str.10
+_unnamed_cfstring_.11
+.str.12
+_unnamed_cfstring_.13
+OBJC_SELECTOR_REFERENCES_.15
+.str.16
+_unnamed_cfstring_.17
+.str.18
+_unnamed_cfstring_.19
+.str.20
+_unnamed_cfstring_.21
+OBJC_SELECTOR_REFERENCES_.23
+l_OBJC_$_CLASS_METHODS_YCRpropTrainer
+l_OBJC_METACLASS_RO_$_YCRpropTrainer
+OBJC_METH_VAR_TYPE_.25
+l_OBJC_$_INSTANCE_METHODS_YCRpropTrainer
+l_OBJC_CLASS_RO_$_YCRpropTrainer
+-[YCRpropTrainer init]
+/Users/aegan/code/ML/YCML/YCML/FFN/YCRpropTrainer.m
++[YCRpropTrainer optimizerClass]
+-[YCRBFNet(IO) copyWithZone:]
+-[YCRBFNet(IO) initWithCoder:]
+-[YCRBFNet(IO) encodeWithCoder:]
+-[YCRBFNet(IO) textDescription]
+.str.27
+_unnamed_cfstring_.28
+.str.29
+_unnamed_cfstring_.30
+.str.31
+_unnamed_cfstring_.32
+.str.33
+_unnamed_cfstring_.34
+OBJC_METH_VAR_NAME_.39
+OBJC_SELECTOR_REFERENCES_.40
+OBJC_METH_VAR_NAME_.43
+OBJC_SELECTOR_REFERENCES_.44
+.str.45
+_unnamed_cfstring_.46
+.str.51
+_unnamed_cfstring_.52
+.str.53
+_unnamed_cfstring_.54
+.str.55
+_unnamed_cfstring_.56
+.str.57
+_unnamed_cfstring_.58
+OBJC_METH_VAR_TYPE_.59
+OBJC_METH_VAR_TYPE_.60
+l_OBJC_$_CATEGORY_INSTANCE_METHODS_YCRBFNet_$_IO
+OBJC_CLASS_NAME_.65
+OBJC_METH_VAR_NAME_.66
+OBJC_METH_VAR_NAME_.68
+OBJC_METH_VAR_TYPE_.69
+OBJC_METH_VAR_NAME_.70
+OBJC_METH_VAR_TYPE_.74
+OBJC_METH_VAR_NAME_.75
+OBJC_METH_VAR_TYPE_.76
+OBJC_METH_VAR_NAME_.77
+OBJC_METH_VAR_TYPE_.78
+OBJC_METH_VAR_NAME_.79
+OBJC_METH_VAR_TYPE_.80
+OBJC_METH_VAR_NAME_.81
+OBJC_METH_VAR_NAME_.82
+OBJC_METH_VAR_TYPE_.83
+OBJC_METH_VAR_NAME_.84
+OBJC_METH_VAR_TYPE_.85
+OBJC_METH_VAR_NAME_.86
+OBJC_METH_VAR_NAME_.87
+OBJC_METH_VAR_TYPE_.88
+OBJC_METH_VAR_NAME_.89
+OBJC_METH_VAR_NAME_.90
+OBJC_METH_VAR_TYPE_.91
+OBJC_METH_VAR_NAME_.92
+OBJC_METH_VAR_TYPE_.93
+OBJC_METH_VAR_NAME_.94
+OBJC_METH_VAR_NAME_.95
+OBJC_METH_VAR_NAME_.96
+OBJC_METH_VAR_NAME_.97
+OBJC_CLASS_NAME_.98
+l_OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject
+l_OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject
+OBJC_PROP_NAME_ATTR_.99
+OBJC_PROP_NAME_ATTR_.100
+OBJC_PROP_NAME_ATTR_.101
+OBJC_PROP_NAME_ATTR_.102
+OBJC_PROP_NAME_ATTR_.103
+OBJC_PROP_NAME_ATTR_.104
+l_OBJC_$_PROP_LIST_NSObject
+l_OBJC_$_PROTOCOL_METHOD_TYPES_NSObject
+l_OBJC_PROTOCOL_$_NSObject
+l_OBJC_LABEL_PROTOCOL_$_NSObject
+OBJC_CLASS_NAME_.105
+OBJC_METH_VAR_TYPE_.106
+OBJC_METH_VAR_TYPE_.107
+OBJC_CLASS_NAME_.108
+l_OBJC_$_PROTOCOL_REFS_YCModelIO
+l_OBJC_$_PROTOCOL_INSTANCE_METHODS_YCModelIO
+l_OBJC_$_PROTOCOL_CLASS_METHODS_YCModelIO
+OBJC_PROP_NAME_ATTR_.109
+OBJC_PROP_NAME_ATTR_.110
+l_OBJC_$_PROP_LIST_YCModelIO
+l_OBJC_$_PROTOCOL_METHOD_TYPES_YCModelIO
+l_OBJC_PROTOCOL_$_YCModelIO
+l_OBJC_LABEL_PROTOCOL_$_YCModelIO
+l_OBJC_CATEGORY_PROTOCOLS_$_YCRBFNet_$_IO
+l_OBJC_$_PROP_LIST_YCRBFNet_$_IO
+l_OBJC_$_CATEGORY_YCRBFNet_$_IO
+OBJC_LABEL_CATEGORY_$
+-[YCRBFNet(IO) textDescription]
+/Users/aegan/code/ML/YCML/YCML/IO/YCRBFNet+IO.m
+-[YCRBFNet(IO) encodeWithCoder:]
+-[YCRBFNet(IO) initWithCoder:]
+-[YCRBFNet(IO) copyWithZone:]
++[NSIndexSet(Sampling) indexesForSampling:inRange:replacement:]
+l_OBJC_$_CATEGORY_CLASS_METHODS_NSIndexSet_$_Sampling
+l_OBJC_$_CATEGORY_NSIndexSet_$_Sampling
++[NSIndexSet(Sampling) indexesForSampling:inRange:replacement:]
+/Users/aegan/code/ML/YCML/YCML/Data Frame/NSIndexSet+Sampling.m
++[YCPopulationBasedOptimizer individualClass]
+-[YCPopulationBasedOptimizer initWithProblem:settings:]
+-[YCPopulationBasedOptimizer initializePopulation]
+-[YCPopulationBasedOptimizer replacePopulationUsing:]
+-[YCPopulationBasedOptimizer evaluateIndividuals:]
+__50-[YCPopulationBasedOptimizer evaluateIndividuals:]_block_invoke
+__50-[YCPopulationBasedOptimizer evaluateIndividuals:]_block_invoke_2
+__copy_helper_block_
+__destroy_helper_block_
+__50-[YCPopulationBasedOptimizer evaluateIndividuals:]_block_invoke.78
+__copy_helper_block_.89
+__destroy_helper_block_.90
+-[YCPopulationBasedOptimizer reset]
+-[YCPopulationBasedOptimizer bestParameters]
+-[YCPopulationBasedOptimizer bestObjectives]
+-[YCPopulationBasedOptimizer bestConstraints]
+-[YCPopulationBasedOptimizer copyWithZone:]
+-[YCPopulationBasedOptimizer initWithCoder:]
+-[YCPopulationBasedOptimizer encodeWithCoder:]
+-[YCPopulationBasedOptimizer population]
+-[YCPopulationBasedOptimizer setPopulation:]
+-[YCPopulationBasedOptimizer .cxx_destruct]
+.str.7
+_unnamed_cfstring_.8
+OBJC_CLASSLIST_REFERENCES_$_.17
+OBJC_METH_VAR_NAME_.18
+OBJC_SELECTOR_REFERENCES_.19
+OBJC_METH_VAR_NAME_.20
+OBJC_SELECTOR_REFERENCES_.21
+OBJC_SELECTOR_REFERENCES_.25
+OBJC_METH_VAR_NAME_.26
+OBJC_SELECTOR_REFERENCES_.27
+OBJC_SELECTOR_REFERENCES_.29
+OBJC_SELECTOR_REFERENCES_.31
+OBJC_SELECTOR_REFERENCES_.33
+OBJC_SELECTOR_REFERENCES_.35
+OBJC_SELECTOR_REFERENCES_.37
+OBJC_METH_VAR_NAME_.38
+OBJC_SELECTOR_REFERENCES_.39
+OBJC_METH_VAR_NAME_.40
+OBJC_SELECTOR_REFERENCES_.41
+OBJC_METH_VAR_NAME_.42
+OBJC_SELECTOR_REFERENCES_.43
+OBJC_METH_VAR_NAME_.44
+OBJC_SELECTOR_REFERENCES_.45
+OBJC_METH_VAR_NAME_.46
+OBJC_SELECTOR_REFERENCES_.47
+OBJC_METH_VAR_NAME_.48
+OBJC_SELECTOR_REFERENCES_.49
+.str.50
+__block_descriptor_tmp
+__block_literal_global
+OBJC_SELECTOR_REFERENCES_.52
+OBJC_SELECTOR_REFERENCES_.54
+OBJC_METH_VAR_NAME_.55
+OBJC_SELECTOR_REFERENCES_.56
+OBJC_METH_VAR_NAME_.57
+OBJC_SELECTOR_REFERENCES_.58
+OBJC_METH_VAR_NAME_.59
+OBJC_SELECTOR_REFERENCES_.60
+OBJC_METH_VAR_NAME_.61
+OBJC_SELECTOR_REFERENCES_.62
+OBJC_CLASSLIST_REFERENCES_$_.63
+OBJC_METH_VAR_NAME_.64
+OBJC_SELECTOR_REFERENCES_.65
+OBJC_SELECTOR_REFERENCES_.67
+OBJC_SELECTOR_REFERENCES_.69
+.str.70
+__block_descriptor_tmp.71
+OBJC_METH_VAR_NAME_.72
+OBJC_SELECTOR_REFERENCES_.73
+OBJC_SELECTOR_REFERENCES_.75
+OBJC_METH_VAR_NAME_.76
+OBJC_SELECTOR_REFERENCES_.77
+OBJC_SELECTOR_REFERENCES_.80
+OBJC_SELECTOR_REFERENCES_.82
+OBJC_METH_VAR_NAME_.83
+OBJC_SELECTOR_REFERENCES_.84
+OBJC_METH_VAR_NAME_.85
+OBJC_SELECTOR_REFERENCES_.86
+OBJC_SELECTOR_REFERENCES_.88
+__block_descriptor_tmp.91
+OBJC_SELECTOR_REFERENCES_.93
+OBJC_SELECTOR_REFERENCES_.95
+OBJC_SELECTOR_REFERENCES_.97
+.str.98
+_unnamed_cfstring_.99
+OBJC_METH_VAR_NAME_.100
+OBJC_SELECTOR_REFERENCES_.101
+.str.102
+_unnamed_cfstring_.103
+.str.104
+_unnamed_cfstring_.105
+OBJC_METH_VAR_NAME_.106
+OBJC_SELECTOR_REFERENCES_.107
+OBJC_METH_VAR_NAME_.108
+OBJC_SELECTOR_REFERENCES_.109
+OBJC_METH_VAR_NAME_.110
+OBJC_SELECTOR_REFERENCES_.111
+.str.112
+_unnamed_cfstring_.113
+OBJC_METH_VAR_NAME_.114
+OBJC_SELECTOR_REFERENCES_.115
+OBJC_METH_VAR_NAME_.116
+OBJC_SELECTOR_REFERENCES_.117
+OBJC_METH_VAR_NAME_.118
+OBJC_SELECTOR_REFERENCES_.119
+OBJC_IVAR_$_YCPopulationBasedOptimizer._population
+l_OBJC_$_CLASS_METHODS_YCPopulationBasedOptimizer
+l_OBJC_METACLASS_RO_$_YCPopulationBasedOptimizer
+OBJC_CLASS_NAME_.120
+OBJC_METH_VAR_TYPE_.121
+OBJC_METH_VAR_TYPE_.122
+OBJC_METH_VAR_NAME_.123
+OBJC_METH_VAR_TYPE_.124
+OBJC_METH_VAR_NAME_.125
+OBJC_METH_VAR_NAME_.126
+OBJC_METH_VAR_TYPE_.127
+OBJC_METH_VAR_NAME_.128
+OBJC_METH_VAR_NAME_.129
+OBJC_METH_VAR_TYPE_.130
+OBJC_METH_VAR_TYPE_.131
+OBJC_METH_VAR_NAME_.132
+l_OBJC_$_INSTANCE_METHODS_YCPopulationBasedOptimizer
+OBJC_METH_VAR_NAME_.133
+OBJC_METH_VAR_TYPE_.134
+l_OBJC_$_INSTANCE_VARIABLES_YCPopulationBasedOptimizer
+OBJC_PROP_NAME_ATTR_.135
+l_OBJC_$_PROP_LIST_YCPopulationBasedOptimizer
+l_OBJC_CLASS_RO_$_YCPopulationBasedOptimizer
+NSMakeRange
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSRange.h
+-[YCPopulationBasedOptimizer .cxx_destruct]
+/Users/aegan/code/ML/YCML/YCML/Optimization/YCPopulationBasedOptimizer.m
+-[YCPopulationBasedOptimizer setPopulation:]
+/Users/aegan/code/ML/YCML/YCML/Optimization/YCPopulationBasedOptimizer.h
+-[YCPopulationBasedOptimizer population]
+-[YCPopulationBasedOptimizer encodeWithCoder:]
+-[YCPopulationBasedOptimizer initWithCoder:]
+-[YCPopulationBasedOptimizer copyWithZone:]
+-[YCPopulationBasedOptimizer bestConstraints]
+-[YCPopulationBasedOptimizer bestObjectives]
+-[YCPopulationBasedOptimizer bestParameters]
+-[YCPopulationBasedOptimizer reset]
+-[YCPopulationBasedOptimizer evaluateIndividuals:]
+-[YCPopulationBasedOptimizer replacePopulationUsing:]
+-[YCPopulationBasedOptimizer initializePopulation]
+-[YCPopulationBasedOptimizer initWithProblem:settings:]
++[YCPopulationBasedOptimizer individualClass]
+-[YCSMOCache init]
+-[YCSMOCache initWithSize:]
+-[YCSMOCache queryI:j:]
+-[YCSMOCache getI:j:tickle:]
+-[YCSMOCache setI:j:value:]
+-[YCSMOCache dealloc]
+-[YCSMOCache index]
+-[YCSMOCache setIndex:]
+-[YCSMOCache inverseIndex]
+-[YCSMOCache setInverseIndex:]
+-[YCSMOCache values]
+-[YCSMOCache setValues:]
+-[YCSMOCache status]
+-[YCSMOCache setStatus:]
+-[YCSMOCache nodes]
+-[YCSMOCache setNodes:]
+-[YCSMOCache order]
+-[YCSMOCache setOrder:]
+-[YCSMOCache .cxx_destruct]
+OBJC_CLASSLIST_REFERENCES_$_.15
+OBJC_METH_VAR_NAME_.16
+OBJC_SELECTOR_REFERENCES_.17
+OBJC_IVAR_$_YCSMOCache._size
+OBJC_IVAR_$_YCSMOCache._index
+OBJC_IVAR_$_YCSMOCache._inverseIndex
+OBJC_IVAR_$_YCSMOCache._values
+OBJC_IVAR_$_YCSMOCache._status
+OBJC_IVAR_$_YCSMOCache._nodes
+OBJC_IVAR_$_YCSMOCache._order
+l_OBJC_METACLASS_RO_$_YCSMOCache
+OBJC_CLASS_NAME_.38
+OBJC_METH_VAR_TYPE_.39
+OBJC_METH_VAR_TYPE_.41
+OBJC_METH_VAR_TYPE_.43
+OBJC_METH_VAR_TYPE_.45
+OBJC_METH_VAR_TYPE_.46
+OBJC_METH_VAR_TYPE_.48
+OBJC_METH_VAR_TYPE_.50
+OBJC_METH_VAR_TYPE_.51
+l_OBJC_$_INSTANCE_METHODS_YCSMOCache
+OBJC_METH_VAR_NAME_.52
+OBJC_METH_VAR_TYPE_.53
+OBJC_METH_VAR_NAME_.54
+OBJC_METH_VAR_NAME_.58
+l_OBJC_$_INSTANCE_VARIABLES_YCSMOCache
+OBJC_PROP_NAME_ATTR_.63
+OBJC_PROP_NAME_ATTR_.64
+OBJC_PROP_NAME_ATTR_.65
+OBJC_PROP_NAME_ATTR_.66
+OBJC_PROP_NAME_ATTR_.67
+OBJC_PROP_NAME_ATTR_.68
+OBJC_PROP_NAME_ATTR_.69
+OBJC_PROP_NAME_ATTR_.70
+OBJC_PROP_NAME_ATTR_.71
+OBJC_PROP_NAME_ATTR_.72
+OBJC_PROP_NAME_ATTR_.73
+l_OBJC_$_PROP_LIST_YCSMOCache
+l_OBJC_CLASS_RO_$_YCSMOCache
+-[YCSMOCache .cxx_destruct]
+/Users/aegan/code/ML/YCML/YCML/SVR/YCSMOCache.m
+-[YCSMOCache setOrder:]
+/Users/aegan/code/ML/YCML/YCML/SVR/YCSMOCache.h
+-[YCSMOCache order]
+-[YCSMOCache setNodes:]
+-[YCSMOCache nodes]
+-[YCSMOCache setStatus:]
+-[YCSMOCache status]
+-[YCSMOCache setValues:]
+-[YCSMOCache values]
+-[YCSMOCache setInverseIndex:]
+-[YCSMOCache inverseIndex]
+-[YCSMOCache setIndex:]
+-[YCSMOCache index]
+-[YCSMOCache dealloc]
+-[YCSMOCache setI:j:value:]
+-[YCSMOCache getI:j:tickle:]
+-[YCSMOCache queryI:j:]
+-[YCSMOCache initWithSize:]
+-[YCSMOCache init]
+-[YCOLSPRESSTrainer init]
+-[YCOLSPRESSTrainer centersAndWidthsFor:input:output:]
+.str.5
+_unnamed_cfstring_.6
+.str.11
+_unnamed_cfstring_.12
+OBJC_CLASSLIST_REFERENCES_$_.25
+OBJC_METH_VAR_NAME_.50
+OBJC_SELECTOR_REFERENCES_.51
+OBJC_SELECTOR_REFERENCES_.53
+OBJC_SELECTOR_REFERENCES_.55
+OBJC_SELECTOR_REFERENCES_.57
+OBJC_SELECTOR_REFERENCES_.59
+.str.60
+_unnamed_cfstring_.61
+OBJC_METH_VAR_NAME_.62
+OBJC_SELECTOR_REFERENCES_.63
+.str.68
+_unnamed_cfstring_.69
+_unnamed_cfstring_.71
+.str.72
+_unnamed_cfstring_.73
+OBJC_CLASSLIST_REFERENCES_$_.74
+OBJC_SELECTOR_REFERENCES_.76
+.str.77
+_unnamed_cfstring_.78
+.str.81
+_unnamed_cfstring_.82
+OBJC_CLASSLIST_REFERENCES_$_.83
+OBJC_SELECTOR_REFERENCES_.85
+OBJC_CLASSLIST_REFERENCES_$_.86
+.str.89
+_unnamed_cfstring_.90
+OBJC_METH_VAR_NAME_.91
+OBJC_SELECTOR_REFERENCES_.92
+OBJC_METH_VAR_NAME_.93
+OBJC_SELECTOR_REFERENCES_.94
+OBJC_SELECTOR_REFERENCES_.96
+OBJC_SELECTOR_REFERENCES_.98
+OBJC_METH_VAR_NAME_.99
+OBJC_SELECTOR_REFERENCES_.100
+OBJC_METH_VAR_NAME_.101
+OBJC_SELECTOR_REFERENCES_.102
+OBJC_METH_VAR_NAME_.103
+OBJC_SELECTOR_REFERENCES_.104
+.str.105
+_unnamed_cfstring_.106
+OBJC_METH_VAR_NAME_.107
+OBJC_SELECTOR_REFERENCES_.108
+l_OBJC_METACLASS_RO_$_YCOLSPRESSTrainer
+OBJC_METH_VAR_NAME_.109
+OBJC_METH_VAR_TYPE_.110
+l_OBJC_$_INSTANCE_METHODS_YCOLSPRESSTrainer
+l_OBJC_CLASS_RO_$_YCOLSPRESSTrainer
+-[YCOLSPRESSTrainer centersAndWidthsFor:input:output:]
+/Users/aegan/code/ML/YCML/YCML/RBF/YCOLSPRESSTrainer.m
+-[YCOLSPRESSTrainer init]
++[YCFullyConnectedLayer layerWithInputSize:outputSize:]
+-[YCFullyConnectedLayer initWithInputSize:outputSize:]
+-[YCFullyConnectedLayer forward:]
+-[YCFullyConnectedLayer backward:input:]
+-[YCFullyConnectedLayer gradientsWithInput:deltas:]
+-[YCFullyConnectedLayer regularizationLoss]
+-[YCFullyConnectedLayer activationFunction:]
+-[YCFullyConnectedLayer activationFunctionGradient:]
+-[YCFullyConnectedLayer inputSize]
+-[YCFullyConnectedLayer outputSize]
+-[YCFullyConnectedLayer weightMatrix]
+-[YCFullyConnectedLayer setWeightMatrix:]
+-[YCFullyConnectedLayer biasVector]
+-[YCFullyConnectedLayer setBiasVector:]
+-[YCFullyConnectedLayer lastActivation]
+-[YCFullyConnectedLayer setLastActivation:]
+-[YCFullyConnectedLayer L2]
+-[YCFullyConnectedLayer setL2:]
+-[YCFullyConnectedLayer .cxx_destruct]
+OBJC_IVAR_$_YCFullyConnectedLayer._weightMatrix
+OBJC_IVAR_$_YCFullyConnectedLayer._biasVector
+OBJC_IVAR_$_YCFullyConnectedLayer._lastActivation
+OBJC_IVAR_$_YCFullyConnectedLayer._L2
+l_OBJC_$_CLASS_METHODS_YCFullyConnectedLayer
+l_OBJC_METACLASS_RO_$_YCFullyConnectedLayer
+OBJC_CLASS_NAME_.40
+OBJC_METH_VAR_NAME_.41
+OBJC_METH_VAR_TYPE_.42
+OBJC_METH_VAR_TYPE_.44
+OBJC_METH_VAR_TYPE_.47
+l_OBJC_$_INSTANCE_METHODS_YCFullyConnectedLayer
+l_OBJC_$_INSTANCE_VARIABLES_YCFullyConnectedLayer
+l_OBJC_$_PROP_LIST_YCFullyConnectedLayer
+l_OBJC_CLASS_RO_$_YCFullyConnectedLayer
+-[YCFullyConnectedLayer .cxx_destruct]
+/Users/aegan/code/ML/YCML/YCML/Layers/YCFullyConnectedLayer.m
+-[YCFullyConnectedLayer setL2:]
+/Users/aegan/code/ML/YCML/YCML/Layers/YCFullyConnectedLayer.h
+-[YCFullyConnectedLayer L2]
+-[YCFullyConnectedLayer setLastActivation:]
+-[YCFullyConnectedLayer lastActivation]
+-[YCFullyConnectedLayer setBiasVector:]
+-[YCFullyConnectedLayer biasVector]
+-[YCFullyConnectedLayer setWeightMatrix:]
+-[YCFullyConnectedLayer weightMatrix]
+-[YCFullyConnectedLayer outputSize]
+-[YCFullyConnectedLayer inputSize]
+-[YCFullyConnectedLayer activationFunctionGradient:]
+-[YCFullyConnectedLayer activationFunction:]
+-[YCFullyConnectedLayer regularizationLoss]
+-[YCFullyConnectedLayer gradientsWithInput:deltas:]
+-[YCFullyConnectedLayer backward:input:]
+-[YCFullyConnectedLayer forward:]
+-[YCFullyConnectedLayer initWithInputSize:outputSize:]
++[YCFullyConnectedLayer layerWithInputSize:outputSize:]
++[YCModelLayer layer]
+-[YCModelLayer init]
+-[YCModelLayer inputSize]
+-[YCModelLayer outputSize]
+-[YCModelLayer properties]
+-[YCModelLayer setProperties:]
+-[YCModelLayer .cxx_destruct]
+OBJC_IVAR_$_YCModelLayer._inputSize
+OBJC_IVAR_$_YCModelLayer._outputSize
+OBJC_IVAR_$_YCModelLayer._properties
+l_OBJC_$_CLASS_METHODS_YCModelLayer
+l_OBJC_METACLASS_RO_$_YCModelLayer
+OBJC_CLASS_NAME_.8
+OBJC_METH_VAR_TYPE_.10
+OBJC_METH_VAR_TYPE_.12
+OBJC_METH_VAR_TYPE_.15
+l_OBJC_$_INSTANCE_METHODS_YCModelLayer
+OBJC_METH_VAR_TYPE_.17
+OBJC_METH_VAR_TYPE_.20
+l_OBJC_$_INSTANCE_VARIABLES_YCModelLayer
+OBJC_PROP_NAME_ATTR_.21
+OBJC_PROP_NAME_ATTR_.22
+OBJC_PROP_NAME_ATTR_.23
+OBJC_PROP_NAME_ATTR_.24
+OBJC_PROP_NAME_ATTR_.25
+l_OBJC_$_PROP_LIST_YCModelLayer
+l_OBJC_CLASS_RO_$_YCModelLayer
+-[YCModelLayer .cxx_destruct]
+/Users/aegan/code/ML/YCML/YCML/Layers/YCModelLayer.m
+-[YCModelLayer setProperties:]
+/Users/aegan/code/ML/YCML/YCML/Layers/YCModelLayer.h
+-[YCModelLayer properties]
+-[YCModelLayer outputSize]
+-[YCModelLayer inputSize]
+-[YCModelLayer init]
++[YCModelLayer layer]
++[YCValidation validationWithSettings:]
+-[YCValidation init]
+-[YCValidation initWithSettings:]
+-[YCValidation initWithSettings:evaluator:]
+__43-[YCValidation initWithSettings:evaluator:]_block_invoke
+-[YCValidation test:input:output:]
+-[YCValidation performTest:input:output:]
+-[YCValidation evaluator]
+-[YCValidation setEvaluator:]
+-[YCValidation settings]
+-[YCValidation setSettings:]
+-[YCValidation results]
+-[YCValidation setResults:]
+-[YCValidation models]
+-[YCValidation setModels:]
+-[YCValidation activeTrainer]
+-[YCValidation setActiveTrainer:]
+-[YCValidation .cxx_destruct]
+OBJC_CLASSLIST_REFERENCES_$_.22
+.str.25
+OBJC_IVAR_$_YCValidation._activeTrainer
+.str.28
+_unnamed_cfstring_.29
+OBJC_IVAR_$_YCValidation._evaluator
+OBJC_IVAR_$_YCValidation._settings
+OBJC_IVAR_$_YCValidation._results
+OBJC_IVAR_$_YCValidation._models
+l_OBJC_$_CLASS_METHODS_YCValidation
+l_OBJC_METACLASS_RO_$_YCValidation
+OBJC_CLASS_NAME_.35
+OBJC_METH_VAR_TYPE_.36
+OBJC_METH_VAR_TYPE_.37
+l_OBJC_$_INSTANCE_METHODS_YCValidation
+OBJC_METH_VAR_NAME_.60
+l_OBJC_$_INSTANCE_VARIABLES_YCValidation
+OBJC_PROP_NAME_ATTR_.62
+l_OBJC_$_PROP_LIST_YCValidation
+l_OBJC_CLASS_RO_$_YCValidation
+-[YCValidation .cxx_destruct]
+/Users/aegan/code/ML/YCML/YCML/Testing/YCValidation.m
+-[YCValidation setActiveTrainer:]
+/Users/aegan/code/ML/YCML/YCML/Testing/YCValidation.h
+-[YCValidation activeTrainer]
+-[YCValidation setModels:]
+-[YCValidation models]
+-[YCValidation setResults:]
+-[YCValidation results]
+-[YCValidation setSettings:]
+-[YCValidation settings]
+-[YCValidation setEvaluator:]
+-[YCValidation evaluator]
+-[YCValidation performTest:input:output:]
+-[YCValidation test:input:output:]
+-[YCValidation initWithSettings:evaluator:]
+-[YCValidation initWithSettings:]
+-[YCValidation init]
++[YCValidation validationWithSettings:]
+-[YCRBFKernel init]
+-[YCRBFKernel kernelValueForA:b:]
+l_OBJC_METACLASS_RO_$_YCRBFKernel
+OBJC_METH_VAR_TYPE_.19
+l_OBJC_$_INSTANCE_METHODS_YCRBFKernel
+l_OBJC_CLASS_RO_$_YCRBFKernel
+-[YCRBFKernel kernelValueForA:b:]
+/Users/aegan/code/ML/YCML/YCML/Kernels/YCRBFKernel.m
+-[YCRBFKernel init]
+-[YCFFN(IO) copyWithZone:]
+-[YCFFN(IO) encodeWithCoder:]
+-[YCFFN(IO) initWithCoder:]
+-[YCFFN(IO) textDescription]
+.str.19
+_unnamed_cfstring_.20
+.str.21
+_unnamed_cfstring_.22
+OBJC_METH_VAR_TYPE_.49
+l_OBJC_$_CATEGORY_INSTANCE_METHODS_YCFFN_$_IO
+OBJC_METH_VAR_TYPE_.52
+OBJC_CLASS_NAME_.55
+OBJC_METH_VAR_NAME_.67
+OBJC_METH_VAR_TYPE_.73
+OBJC_METH_VAR_TYPE_.75
+OBJC_METH_VAR_NAME_.80
+OBJC_METH_VAR_TYPE_.81
+OBJC_CLASS_NAME_.88
+OBJC_PROP_NAME_ATTR_.89
+OBJC_PROP_NAME_ATTR_.90
+OBJC_PROP_NAME_ATTR_.91
+OBJC_PROP_NAME_ATTR_.92
+OBJC_PROP_NAME_ATTR_.93
+OBJC_PROP_NAME_ATTR_.94
+OBJC_CLASS_NAME_.95
+OBJC_METH_VAR_TYPE_.96
+OBJC_METH_VAR_TYPE_.97
+l_OBJC_CATEGORY_PROTOCOLS_$_YCFFN_$_IO
+l_OBJC_$_PROP_LIST_YCFFN_$_IO
+l_OBJC_$_CATEGORY_YCFFN_$_IO
+-[YCFFN(IO) textDescription]
+/Users/aegan/code/ML/YCML/YCML/IO/YCFFN+IO.m
+-[YCFFN(IO) initWithCoder:]
+-[YCFFN(IO) encodeWithCoder:]
+-[YCFFN(IO) copyWithZone:]
+-[Stats initWithArray:]
+-[Stats updateStatsWithArray:]
+-[Stats sum]
+-[Stats mean]
+-[Stats min]
+-[Stats max]
+-[Stats variance]
+-[Stats sd]
+-[YCMutableArray init]
+-[YCMutableArray initWithCapacity:]
+-[YCMutableArray count]
+-[YCMutableArray objectAtIndex:]
+-[YCMutableArray insertObject:atIndex:]
+-[YCMutableArray removeObjectAtIndex:]
+-[YCMutableArray addObject:]
+-[YCMutableArray removeLastObject]
+-[YCMutableArray replaceObjectAtIndex:withObject:]
+-[YCMutableArray copy]
+-[YCMutableArray mutableCopy]
+-[YCMutableArray sample:replacement:]
+-[YCMutableArray indexesOfOutliersWithFenceMultiplier:]
+-[YCMutableArray quantile:]
+-[YCMutableArray bins:]
+-[YCMutableArray sum]
+-[YCMutableArray min]
+-[YCMutableArray max]
+-[YCMutableArray mean]
+-[YCMutableArray Q1]
+-[YCMutableArray median]
+-[YCMutableArray Q3]
+-[YCMutableArray variance]
+-[YCMutableArray sd]
+-[YCMutableArray stats]
+-[YCMutableArray bins]
+-[YCMutableArray valueForKey:]
+-[YCMutableArray .cxx_destruct]
+OBJC_IVAR_$_Stats._min
+OBJC_IVAR_$_Stats._max
+OBJC_IVAR_$_Stats._sum
+OBJC_IVAR_$_Stats._mean
+OBJC_IVAR_$_Stats._variance
+OBJC_IVAR_$_Stats._sd
+l_OBJC_METACLASS_RO_$_Stats
+OBJC_METH_VAR_TYPE_.14
+OBJC_METH_VAR_TYPE_.16
+l_OBJC_$_INSTANCE_METHODS_Stats
+l_OBJC_$_INSTANCE_VARIABLES_Stats
+OBJC_PROP_NAME_ATTR_.29
+OBJC_PROP_NAME_ATTR_.30
+OBJC_PROP_NAME_ATTR_.31
+OBJC_PROP_NAME_ATTR_.32
+OBJC_PROP_NAME_ATTR_.33
+OBJC_PROP_NAME_ATTR_.34
+OBJC_PROP_NAME_ATTR_.35
+OBJC_PROP_NAME_ATTR_.36
+l_OBJC_$_PROP_LIST_Stats
+l_OBJC_CLASS_RO_$_Stats
+OBJC_CLASSLIST_SUP_REFS_$_.40
+OBJC_CLASSLIST_REFERENCES_$_.41
+OBJC_IVAR_$_YCMutableArray._backing
+OBJC_IVAR_$_YCMutableArray._stats
+OBJC_IVAR_$_YCMutableArray._bins
+OBJC_SELECTOR_REFERENCES_.61
+OBJC_CLASSLIST_REFERENCES_$_.62
+OBJC_SELECTOR_REFERENCES_.64
+OBJC_CLASSLIST_REFERENCES_$_.65
+OBJC_SELECTOR_REFERENCES_.71
+OBJC_SELECTOR_REFERENCES_.78
+OBJC_SELECTOR_REFERENCES_.89
+OBJC_SELECTOR_REFERENCES_.90
+OBJC_CLASSLIST_REFERENCES_$_.93
+OBJC_CLASSLIST_REFERENCES_$_.96
+OBJC_SELECTOR_REFERENCES_.105
+OBJC_SELECTOR_REFERENCES_.106
+OBJC_SELECTOR_REFERENCES_.110
+OBJC_CLASSLIST_REFERENCES_$_.111
+OBJC_SELECTOR_REFERENCES_.112
+OBJC_METH_VAR_NAME_.113
+OBJC_SELECTOR_REFERENCES_.114
+OBJC_METH_VAR_NAME_.115
+OBJC_SELECTOR_REFERENCES_.116
+.str.117
+_unnamed_cfstring_.118
+.str.119
+_unnamed_cfstring_.120
+.str.121
+_unnamed_cfstring_.122
+.str.123
+_unnamed_cfstring_.124
+.str.125
+_unnamed_cfstring_.126
+OBJC_METH_VAR_NAME_.127
+OBJC_SELECTOR_REFERENCES_.128
+.str.129
+_unnamed_cfstring_.130
+.str.131
+_unnamed_cfstring_.132
+.str.133
+_unnamed_cfstring_.134
+.str.135
+_unnamed_cfstring_.136
+OBJC_METH_VAR_NAME_.137
+OBJC_SELECTOR_REFERENCES_.138
+OBJC_CLASS_NAME_.139
+l_OBJC_METACLASS_RO_$_YCMutableArray
+OBJC_CLASS_NAME_.140
+OBJC_METH_VAR_TYPE_.141
+OBJC_METH_VAR_TYPE_.142
+OBJC_METH_VAR_TYPE_.143
+OBJC_METH_VAR_TYPE_.144
+OBJC_METH_VAR_TYPE_.145
+OBJC_METH_VAR_TYPE_.146
+OBJC_METH_VAR_TYPE_.147
+OBJC_METH_VAR_NAME_.148
+OBJC_METH_VAR_NAME_.149
+OBJC_METH_VAR_TYPE_.150
+OBJC_METH_VAR_NAME_.151
+OBJC_METH_VAR_TYPE_.152
+OBJC_METH_VAR_NAME_.153
+OBJC_METH_VAR_NAME_.154
+l_OBJC_$_INSTANCE_METHODS_YCMutableArray
+OBJC_METH_VAR_NAME_.155
+OBJC_METH_VAR_TYPE_.156
+OBJC_METH_VAR_NAME_.157
+OBJC_METH_VAR_TYPE_.158
+OBJC_METH_VAR_NAME_.159
+OBJC_METH_VAR_TYPE_.160
+l_OBJC_$_INSTANCE_VARIABLES_YCMutableArray
+OBJC_PROP_NAME_ATTR_.161
+OBJC_PROP_NAME_ATTR_.162
+OBJC_PROP_NAME_ATTR_.163
+OBJC_PROP_NAME_ATTR_.164
+OBJC_PROP_NAME_ATTR_.165
+OBJC_PROP_NAME_ATTR_.166
+OBJC_PROP_NAME_ATTR_.167
+OBJC_PROP_NAME_ATTR_.168
+l_OBJC_$_PROP_LIST_YCMutableArray
+l_OBJC_CLASS_RO_$_YCMutableArray
+-[YCMutableArray .cxx_destruct]
+/Users/aegan/code/ML/YCML/YCML/Data Frame/YCMutableArray.m
+-[YCMutableArray valueForKey:]
+-[YCMutableArray bins]
+-[YCMutableArray stats]
+-[YCMutableArray sd]
+-[YCMutableArray variance]
+-[YCMutableArray Q3]
+-[YCMutableArray median]
+-[YCMutableArray Q1]
+-[YCMutableArray mean]
+-[YCMutableArray max]
+-[YCMutableArray min]
+-[YCMutableArray sum]
+-[YCMutableArray bins:]
+-[YCMutableArray quantile:]
+-[YCMutableArray indexesOfOutliersWithFenceMultiplier:]
+-[YCMutableArray sample:replacement:]
+-[YCMutableArray mutableCopy]
+-[YCMutableArray copy]
+-[YCMutableArray replaceObjectAtIndex:withObject:]
+-[YCMutableArray removeLastObject]
+-[YCMutableArray addObject:]
+-[YCMutableArray removeObjectAtIndex:]
+-[YCMutableArray insertObject:atIndex:]
+-[YCMutableArray objectAtIndex:]
+-[YCMutableArray count]
+-[YCMutableArray initWithCapacity:]
+-[YCMutableArray init]
+-[Stats sd]
+/Users/aegan/code/ML/YCML/YCML/Data Frame/YCMutableArray.h
+-[Stats variance]
+-[Stats max]
+-[Stats min]
+-[Stats mean]
+-[Stats sum]
+-[Stats updateStatsWithArray:]
+-[Stats initWithArray:]
+-[YCSurrogateModel objectiveCount]
+-[YCSurrogateModel parameterCount]
+-[YCSurrogateModel constraintCount]
+-[YCSurrogateModel modes]
+-[YCSurrogateModel parameterBounds]
+-[YCSurrogateModel initialValuesRangeHint]
+-[YCSurrogateModel evaluate:parameters:]
+-[YCSurrogateModel parameterLabels]
+-[YCSurrogateModel objectiveLabels]
+-[YCSurrogateModel constraintLabels]
+-[YCSurrogateModel dictionary:toArrayWithKeyOrder:]
+-[YCSurrogateModel supportedEvaluationMode]
+-[YCSurrogateModel model]
+-[YCSurrogateModel setModel:]
+-[YCSurrogateModel maximize]
+-[YCSurrogateModel setMaximize:]
+-[YCSurrogateModel .cxx_destruct]
+OBJC_IVAR_$_YCSurrogateModel._modesCache
+OBJC_IVAR_$_YCSurrogateModel._parameterBoundsCache
+.str.17
+_unnamed_cfstring_.18
+.str.36
+_unnamed_cfstring_.37
+OBJC_CLASSLIST_REFERENCES_$_.38
+OBJC_SELECTOR_REFERENCES_.42
+OBJC_IVAR_$_YCSurrogateModel._model
+OBJC_IVAR_$_YCSurrogateModel._maximize
+OBJC_METH_VAR_TYPE_.56
+l_OBJC_$_PROTOCOL_INSTANCE_METHODS_YCProblem
+l_OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_YCProblem
+OBJC_PROP_NAME_ATTR_.60
+OBJC_PROP_NAME_ATTR_.61
+l_OBJC_$_PROP_LIST_YCProblem
+l_OBJC_$_PROTOCOL_METHOD_TYPES_YCProblem
+l_OBJC_PROTOCOL_$_YCProblem
+l_OBJC_LABEL_PROTOCOL_$_YCProblem
+l_OBJC_CLASS_PROTOCOLS_$_YCSurrogateModel
+l_OBJC_METACLASS_RO_$_YCSurrogateModel
+OBJC_CLASS_NAME_.72
+l_OBJC_$_INSTANCE_METHODS_YCSurrogateModel
+OBJC_METH_VAR_TYPE_.82
+OBJC_METH_VAR_TYPE_.84
+OBJC_METH_VAR_TYPE_.87
+l_OBJC_$_INSTANCE_VARIABLES_YCSurrogateModel
+OBJC_PROP_NAME_ATTR_.88
+l_OBJC_$_PROP_LIST_YCSurrogateModel
+l_OBJC_CLASS_RO_$_YCSurrogateModel
+-[YCSurrogateModel .cxx_destruct]
+/Users/aegan/code/ML/YCML/YCML/Surrogate Modeling/YCSurrogateModel.m
+-[YCSurrogateModel setMaximize:]
+-[YCSurrogateModel maximize]
+-[YCSurrogateModel setModel:]
+-[YCSurrogateModel model]
+-[YCSurrogateModel supportedEvaluationMode]
+-[YCSurrogateModel dictionary:toArrayWithKeyOrder:]
+-[YCSurrogateModel constraintLabels]
+-[YCSurrogateModel objectiveLabels]
+-[YCSurrogateModel parameterLabels]
+-[YCSurrogateModel evaluate:parameters:]
+-[YCSurrogateModel initialValuesRangeHint]
+-[YCSurrogateModel parameterBounds]
+-[YCSurrogateModel modes]
+-[YCSurrogateModel constraintCount]
+-[YCSurrogateModel parameterCount]
+-[YCSurrogateModel objectiveCount]
++[YCModelKernel kernel]
+-[YCModelKernel init]
+-[YCModelKernel initWithCoder:]
+-[YCModelKernel kernelValueForA:b:]
+-[YCModelKernel properties]
+-[YCModelKernel setProperties:]
+-[YCModelKernel .cxx_destruct]
+.str.9
+_unnamed_cfstring_.10
+OBJC_IVAR_$_YCModelKernel._properties
+l_OBJC_$_CLASS_METHODS_YCModelKernel
+l_OBJC_METACLASS_RO_$_YCModelKernel
+OBJC_CLASS_NAME_.16
+OBJC_METH_VAR_TYPE_.18
+OBJC_METH_VAR_TYPE_.22
+OBJC_METH_VAR_TYPE_.24
+l_OBJC_$_INSTANCE_METHODS_YCModelKernel
+l_OBJC_$_INSTANCE_VARIABLES_YCModelKernel
+OBJC_PROP_NAME_ATTR_.27
+l_OBJC_$_PROP_LIST_YCModelKernel
+l_OBJC_CLASS_RO_$_YCModelKernel
+-[YCModelKernel .cxx_destruct]
+/Users/aegan/code/ML/YCML/YCML/Kernels/YCModelKernel.m
+-[YCModelKernel setProperties:]
+/Users/aegan/code/ML/YCML/YCML/Kernels/YCModelKernel.h
+-[YCModelKernel properties]
+-[YCModelKernel kernelValueForA:b:]
+-[YCModelKernel initWithCoder:]
+-[YCModelKernel init]
++[YCModelKernel kernel]
+-[YCGenericTrainer(IO) initWithCoder:]
+-[YCGenericTrainer(IO) encodeWithCoder:]
+-[YCGenericTrainer(IO) copyWithZone:]
+OBJC_METH_VAR_TYPE_.21
+l_OBJC_$_CATEGORY_INSTANCE_METHODS_YCGenericTrainer_$_IO
+OBJC_CLASS_NAME_.22
+OBJC_CLASS_NAME_.25
+l_OBJC_CATEGORY_PROTOCOLS_$_YCGenericTrainer_$_IO
+l_OBJC_$_CATEGORY_YCGenericTrainer_$_IO
+-[YCGenericTrainer(IO) copyWithZone:]
+/Users/aegan/code/ML/YCML/YCML/IO/YCGenericTrainer+IO.m
+-[YCGenericTrainer(IO) encodeWithCoder:]
+-[YCGenericTrainer(IO) initWithCoder:]
++[YCGenericModel(IO) modelWithPMMLString:]
+-[YCGenericModel(IO) copyWithZone:]
+-[YCGenericModel(IO) encodeWithCoder:]
+-[YCGenericModel(IO) initWithCoder:]
+-[YCGenericModel(IO) textDescription]
+.str.23
+_unnamed_cfstring_.24
+_unnamed_cfstring_.26
+.str.37
+_unnamed_cfstring_.38
+.str.47
+_unnamed_cfstring_.48
+.str.49
+_unnamed_cfstring_.50
+l_OBJC_$_CATEGORY_INSTANCE_METHODS_YCGenericModel_$_IO
+l_OBJC_$_CATEGORY_CLASS_METHODS_YCGenericModel_$_IO
+OBJC_CLASS_NAME_.61
+OBJC_METH_VAR_TYPE_.63
+OBJC_METH_VAR_TYPE_.71
+OBJC_METH_VAR_TYPE_.86
+OBJC_CLASS_NAME_.93
+OBJC_PROP_NAME_ATTR_.95
+OBJC_PROP_NAME_ATTR_.96
+OBJC_PROP_NAME_ATTR_.97
+OBJC_PROP_NAME_ATTR_.98
+OBJC_CLASS_NAME_.100
+OBJC_METH_VAR_TYPE_.101
+OBJC_METH_VAR_TYPE_.102
+OBJC_CLASS_NAME_.103
+OBJC_PROP_NAME_ATTR_.105
+l_OBJC_CATEGORY_PROTOCOLS_$_YCGenericModel_$_IO
+l_OBJC_$_PROP_LIST_YCGenericModel_$_IO
+l_OBJC_$_CATEGORY_YCGenericModel_$_IO
+-[YCGenericModel(IO) textDescription]
+/Users/aegan/code/ML/YCML/YCML/IO/YCGenericModel+IO.m
+-[YCGenericModel(IO) initWithCoder:]
+-[YCGenericModel(IO) encodeWithCoder:]
+-[YCGenericModel(IO) copyWithZone:]
++[YCGenericModel(IO) modelWithPMMLString:]
++[YCOLSTrainer modelClass]
+-[YCOLSTrainer init]
+-[YCOLSTrainer performTrainingModel:inputMatrix:outputMatrix:]
+-[YCOLSTrainer centersAndWidthsFor:input:output:]
+-[YCOLSTrainer weightsFor:input:output:]
+-[YCOLSTrainer initialDesignMatrixWithInput:widths:]
+__52-[YCOLSTrainer initialDesignMatrixWithInput:widths:]_block_invoke
+.str.14
+_unnamed_cfstring_.15
+OBJC_CLASSLIST_REFERENCES_$_.30
+.str.35
+_unnamed_cfstring_.36
+OBJC_CLASSLIST_REFERENCES_$_.39
+.str.46
+_unnamed_cfstring_.47
+.str.48
+_unnamed_cfstring_.49
+OBJC_CLASSLIST_REFERENCES_$_.64
+OBJC_SELECTOR_REFERENCES_.66
+OBJC_SELECTOR_REFERENCES_.68
+OBJC_SELECTOR_REFERENCES_.70
+OBJC_SELECTOR_REFERENCES_.72
+OBJC_SELECTOR_REFERENCES_.74
+OBJC_CLASSLIST_REFERENCES_$_.81
+OBJC_SELECTOR_REFERENCES_.83
+OBJC_SELECTOR_REFERENCES_.87
+OBJC_METH_VAR_NAME_.88
+OBJC_SELECTOR_REFERENCES_.91
+OBJC_METH_VAR_NAME_.98
+OBJC_SELECTOR_REFERENCES_.99
+OBJC_METH_VAR_NAME_.102
+OBJC_SELECTOR_REFERENCES_.103
+OBJC_METH_VAR_NAME_.104
+.str.108
+_unnamed_cfstring_.109
+OBJC_METH_VAR_NAME_.112
+OBJC_SELECTOR_REFERENCES_.113
+.str.114
+_unnamed_cfstring_.115
+.str.116
+_unnamed_cfstring_.117
+.str.118
+_unnamed_cfstring_.119
+.str.120
+_unnamed_cfstring_.121
+OBJC_METH_VAR_NAME_.122
+OBJC_SELECTOR_REFERENCES_.123
+OBJC_METH_VAR_NAME_.124
+OBJC_SELECTOR_REFERENCES_.125
+OBJC_SELECTOR_REFERENCES_.127
+OBJC_SELECTOR_REFERENCES_.129
+OBJC_METH_VAR_NAME_.130
+OBJC_SELECTOR_REFERENCES_.131
+OBJC_SELECTOR_REFERENCES_.133
+.str.134
+_unnamed_cfstring_.135
+OBJC_METH_VAR_NAME_.136
+OBJC_SELECTOR_REFERENCES_.137
+OBJC_METH_VAR_NAME_.138
+OBJC_SELECTOR_REFERENCES_.139
+OBJC_METH_VAR_NAME_.140
+OBJC_SELECTOR_REFERENCES_.141
+OBJC_METH_VAR_NAME_.142
+OBJC_SELECTOR_REFERENCES_.143
+OBJC_METH_VAR_NAME_.144
+OBJC_SELECTOR_REFERENCES_.145
+.str.146
+OBJC_METH_VAR_NAME_.147
+l_OBJC_$_CLASS_METHODS_YCOLSTrainer
+l_OBJC_METACLASS_RO_$_YCOLSTrainer
+OBJC_METH_VAR_TYPE_.148
+OBJC_METH_VAR_TYPE_.151
+l_OBJC_$_INSTANCE_METHODS_YCOLSTrainer
+l_OBJC_CLASS_RO_$_YCOLSTrainer
+YCMakeDomain
+/Users/aegan/code/ML/YCML/YCMatrix/Matrix+Map.h
+/Users/aegan/code/ML/YCML/YCML/RBF/YCOLSTrainer.m
+-[YCOLSTrainer initialDesignMatrixWithInput:widths:]
+-[YCOLSTrainer weightsFor:input:output:]
+-[YCOLSTrainer centersAndWidthsFor:input:output:]
+-[YCOLSTrainer performTrainingModel:inputMatrix:outputMatrix:]
+-[YCOLSTrainer init]
++[YCOLSTrainer modelClass]
+-[YCModelLayer(IO) initWithCoder:]
+-[YCModelLayer(IO) encodeWithCoder:]
+-[YCModelLayer(IO) copyWithZone:]
+-[YCModelLayer(IO) textDescriptionWithLayerIndex:]
+.str.15
+_unnamed_cfstring_.16
+l_OBJC_$_CATEGORY_INSTANCE_METHODS_YCModelLayer_$_IO
+OBJC_CLASS_NAME_.26
+OBJC_METH_VAR_TYPE_.28
+OBJC_CLASS_NAME_.29
+l_OBJC_CATEGORY_PROTOCOLS_$_YCModelLayer_$_IO
+l_OBJC_$_CATEGORY_YCModelLayer_$_IO
+-[YCModelLayer(IO) textDescriptionWithLayerIndex:]
+/Users/aegan/code/ML/YCML/YCML/IO/YCModelLayer+IO.m
+-[YCModelLayer(IO) copyWithZone:]
+-[YCModelLayer(IO) encodeWithCoder:]
+-[YCModelLayer(IO) initWithCoder:]
+-[YCRBFNet activateWithMatrix:]
+-[YCRBFNet designMatrixWithInput:]
+__34-[YCRBFNet designMatrixWithInput:]_block_invoke
+-[YCRBFNet inputSize]
+-[YCRBFNet outputSize]
+-[YCRBFNet inputTransform]
+-[YCRBFNet setInputTransform:]
+-[YCRBFNet outputTransform]
+-[YCRBFNet setOutputTransform:]
+-[YCRBFNet centers]
+-[YCRBFNet setCenters:]
+-[YCRBFNet widths]
+-[YCRBFNet setWidths:]
+-[YCRBFNet weights]
+-[YCRBFNet setWeights:]
+-[YCRBFNet .cxx_destruct]
+OBJC_IVAR_$_YCRBFNet._centers
+OBJC_IVAR_$_YCRBFNet._widths
+OBJC_IVAR_$_YCRBFNet._inputTransform
+OBJC_IVAR_$_YCRBFNet._outputTransform
+OBJC_IVAR_$_YCRBFNet._weights
+l_OBJC_METACLASS_RO_$_YCRBFNet
+OBJC_CLASS_NAME_.23
+OBJC_METH_VAR_TYPE_.30
+OBJC_METH_VAR_TYPE_.32
+l_OBJC_$_INSTANCE_METHODS_YCRBFNet
+l_OBJC_$_INSTANCE_VARIABLES_YCRBFNet
+OBJC_PROP_NAME_ATTR_.44
+OBJC_PROP_NAME_ATTR_.45
+OBJC_PROP_NAME_ATTR_.46
+OBJC_PROP_NAME_ATTR_.47
+OBJC_PROP_NAME_ATTR_.48
+OBJC_PROP_NAME_ATTR_.49
+OBJC_PROP_NAME_ATTR_.50
+OBJC_PROP_NAME_ATTR_.51
+OBJC_PROP_NAME_ATTR_.52
+l_OBJC_$_PROP_LIST_YCRBFNet
+l_OBJC_CLASS_RO_$_YCRBFNet
+-[YCRBFNet .cxx_destruct]
+/Users/aegan/code/ML/YCML/YCML/RBF/YCRBFNet.m
+-[YCRBFNet setWeights:]
+/Users/aegan/code/ML/YCML/YCML/RBF/YCRBFNet.h
+-[YCRBFNet weights]
+-[YCRBFNet setWidths:]
+-[YCRBFNet widths]
+-[YCRBFNet setCenters:]
+-[YCRBFNet centers]
+-[YCRBFNet setOutputTransform:]
+-[YCRBFNet outputTransform]
+-[YCRBFNet setInputTransform:]
+-[YCRBFNet inputTransform]
+-[YCRBFNet outputSize]
+-[YCRBFNet inputSize]
+-[YCRBFNet designMatrixWithInput:]
+-[YCRBFNet activateWithMatrix:]
++[YCHypE individualClass]
+-[YCHypE initWithProblem:settings:]
+-[YCHypE iterate:]
+-[YCHypE reset]
+-[YCHypE matingSelection:count:samples:]
+-[YCHypE variation:count:]
+-[YCHypE environmentalSelection:count:samples:]
+__47-[YCHypE environmentalSelection:count:samples:]_block_invoke
+-[YCHypE assignFitness:samples:k:]
++[YCHypE vector:weaklyDominates:targets:]
+-[YCHypE nonDominatedSortingWithPopulation:]
+-[YCHypE simulatedBinaryCrossoverWithPopulation:]
+-[YCHypE polynomialMutationWithPopulation:]
+-[YCHypE .cxx_destruct]
+-[YCHypEIndividual v]
+-[YCHypEIndividual setV:]
+-[YCHypEIndividual rank]
+-[YCHypEIndividual setRank:]
+-[YCHypEIndividual n]
+-[YCHypEIndividual setN:]
+-[YCHypEIndividual s]
+-[YCHypEIndividual setS:]
+-[YCHypEIndividual .cxx_destruct]
+-[NSMutableArray(Shuffling) shuffle]
+OBJC_IVAR_$_YCHypE._modesCache
+.str.30
+_unnamed_cfstring_.31
+OBJC_IVAR_$_YCHypE._upper
+OBJC_IVAR_$_YCHypE._lower
+OBJC_CLASSLIST_REFERENCES_$_.56
+.str.79
+OBJC_SELECTOR_REFERENCES_.81
+OBJC_CLASSLIST_REFERENCES_$_.84
+OBJC_METH_VAR_NAME_.105
+OBJC_METH_VAR_NAME_.111
+OBJC_CLASSLIST_REFERENCES_$_.113
+OBJC_CLASSLIST_REFERENCES_$_.124
+OBJC_SELECTOR_REFERENCES_.126
+OBJC_SELECTOR_REFERENCES_.130
+OBJC_METH_VAR_NAME_.131
+OBJC_SELECTOR_REFERENCES_.132
+OBJC_SELECTOR_REFERENCES_.134
+OBJC_METH_VAR_NAME_.135
+OBJC_SELECTOR_REFERENCES_.136
+OBJC_METH_VAR_NAME_.139
+OBJC_SELECTOR_REFERENCES_.140
+OBJC_METH_VAR_NAME_.141
+OBJC_SELECTOR_REFERENCES_.142
+OBJC_METH_VAR_NAME_.143
+OBJC_SELECTOR_REFERENCES_.144
+OBJC_METH_VAR_NAME_.145
+OBJC_SELECTOR_REFERENCES_.146
+OBJC_SELECTOR_REFERENCES_.148
+OBJC_SELECTOR_REFERENCES_.150
+OBJC_SELECTOR_REFERENCES_.152
+OBJC_SELECTOR_REFERENCES_.154
+OBJC_SELECTOR_REFERENCES_.156
+OBJC_CLASSLIST_REFERENCES_$_.157
+OBJC_METH_VAR_NAME_.158
+OBJC_SELECTOR_REFERENCES_.159
+OBJC_METH_VAR_NAME_.160
+OBJC_METH_VAR_TYPE_.161
+l_OBJC_$_CLASS_METHODS_YCHypE
+l_OBJC_METACLASS_RO_$_YCHypE
+OBJC_CLASS_NAME_.162
+OBJC_METH_VAR_TYPE_.163
+OBJC_METH_VAR_NAME_.164
+OBJC_METH_VAR_TYPE_.165
+OBJC_METH_VAR_TYPE_.166
+OBJC_METH_VAR_TYPE_.167
+OBJC_METH_VAR_TYPE_.168
+OBJC_METH_VAR_TYPE_.169
+OBJC_METH_VAR_TYPE_.170
+OBJC_METH_VAR_TYPE_.171
+OBJC_METH_VAR_NAME_.172
+l_OBJC_$_INSTANCE_METHODS_YCHypE
+OBJC_METH_VAR_NAME_.173
+OBJC_METH_VAR_TYPE_.174
+OBJC_METH_VAR_NAME_.175
+OBJC_METH_VAR_NAME_.176
+l_OBJC_$_INSTANCE_VARIABLES_YCHypE
+l_OBJC_CLASS_RO_$_YCHypE
+OBJC_IVAR_$_YCHypEIndividual._v
+OBJC_IVAR_$_YCHypEIndividual._rank
+OBJC_IVAR_$_YCHypEIndividual._n
+OBJC_IVAR_$_YCHypEIndividual._s
+OBJC_CLASS_NAME_.177
+l_OBJC_METACLASS_RO_$_YCHypEIndividual
+OBJC_CLASS_NAME_.178
+OBJC_METH_VAR_TYPE_.179
+OBJC_METH_VAR_TYPE_.180
+OBJC_METH_VAR_TYPE_.181
+OBJC_METH_VAR_TYPE_.182
+OBJC_METH_VAR_TYPE_.183
+l_OBJC_$_INSTANCE_METHODS_YCHypEIndividual
+OBJC_METH_VAR_NAME_.184
+OBJC_METH_VAR_TYPE_.185
+OBJC_METH_VAR_NAME_.186
+OBJC_METH_VAR_NAME_.187
+OBJC_METH_VAR_TYPE_.188
+OBJC_METH_VAR_NAME_.189
+OBJC_METH_VAR_TYPE_.190
+l_OBJC_$_INSTANCE_VARIABLES_YCHypEIndividual
+OBJC_PROP_NAME_ATTR_.191
+OBJC_PROP_NAME_ATTR_.192
+OBJC_PROP_NAME_ATTR_.193
+OBJC_PROP_NAME_ATTR_.194
+OBJC_PROP_NAME_ATTR_.195
+OBJC_PROP_NAME_ATTR_.196
+OBJC_PROP_NAME_ATTR_.197
+l_OBJC_$_PROP_LIST_YCHypEIndividual
+l_OBJC_CLASS_RO_$_YCHypEIndividual
+OBJC_METH_VAR_NAME_.198
+OBJC_SELECTOR_REFERENCES_.199
+OBJC_CLASS_NAME_.200
+l_OBJC_$_CATEGORY_INSTANCE_METHODS_NSMutableArray_$_Shuffling
+l_OBJC_$_CATEGORY_NSMutableArray_$_Shuffling
+-[NSMutableArray(Shuffling) shuffle]
+/Users/aegan/code/ML/YCML/YCML/Optimization/Genetic Algorithms/YCHypE.m
+-[YCHypEIndividual .cxx_destruct]
+-[YCHypEIndividual setS:]
+/Users/aegan/code/ML/YCML/YCML/Optimization/Genetic Algorithms/YCHypE.h
+-[YCHypEIndividual s]
+-[YCHypEIndividual setN:]
+-[YCHypEIndividual n]
+-[YCHypEIndividual setRank:]
+-[YCHypEIndividual rank]
+-[YCHypEIndividual setV:]
+-[YCHypEIndividual v]
+-[YCHypE .cxx_destruct]
+-[YCHypE polynomialMutationWithPopulation:]
+-[YCHypE simulatedBinaryCrossoverWithPopulation:]
+-[YCHypE nonDominatedSortingWithPopulation:]
++[YCHypE vector:weaklyDominates:targets:]
+-[YCHypE assignFitness:samples:k:]
+-[YCHypE environmentalSelection:count:samples:]
+-[YCHypE variation:count:]
+-[YCHypE matingSelection:count:samples:]
+-[YCHypE reset]
+-[YCHypE iterate:]
+-[YCHypE initWithProblem:settings:]
++[YCHypE individualClass]
+-[YCSupervisedModel(IO) textDescription]
+__40-[YCSupervisedModel(IO) textDescription]_block_invoke
+__40-[YCSupervisedModel(IO) textDescription]_block_invoke.20
+__copy_helper_block_.21
+__destroy_helper_block_.22
+__block_descriptor_tmp.23
+l_OBJC_$_CATEGORY_INSTANCE_METHODS_YCSupervisedModel_$_IO
+OBJC_CLASS_NAME_.28
+OBJC_CLASS_NAME_.70
+OBJC_CLASS_NAME_.76
+l_OBJC_CATEGORY_PROTOCOLS_$_YCSupervisedModel_$_IO
+l_OBJC_$_PROP_LIST_YCSupervisedModel_$_IO
+l_OBJC_$_CATEGORY_YCSupervisedModel_$_IO
+/Users/aegan/code/ML/YCML/YCML/IO/YCSupervisedModel+IO.m
+-[YCSupervisedModel(IO) textDescription]
++[OrderedDictionary dictionaryWithContentsOfFile:]
++[OrderedDictionary dictionaryWithContentsOfURL:]
+-[OrderedDictionary initWithContentsOfFile:]
+-[OrderedDictionary initWithContentsOfURL:]
+-[OrderedDictionary initWithObjects:forKeys:]
+-[OrderedDictionary initWithObjects:forKeys:count:]
+-[OrderedDictionary classForCoder]
+-[OrderedDictionary initWithCoder:]
+-[OrderedDictionary encodeWithCoder:]
+-[OrderedDictionary copyWithZone:]
+-[OrderedDictionary mutableCopyWithZone:]
+-[OrderedDictionary allKeys]
+-[OrderedDictionary allValues]
+-[OrderedDictionary count]
+-[OrderedDictionary indexOfKey:]
+-[OrderedDictionary objectForKey:]
+-[OrderedDictionary keyEnumerator]
+-[OrderedDictionary reverseKeyEnumerator]
+-[OrderedDictionary objectEnumerator]
+-[OrderedDictionary reverseObjectEnumerator]
+-[OrderedDictionary enumerateKeysAndObjectsWithIndexUsingBlock:]
+__64-[OrderedDictionary enumerateKeysAndObjectsWithIndexUsingBlock:]_block_invoke
+-[OrderedDictionary keyAtIndex:]
+-[OrderedDictionary objectAtIndex:]
+-[OrderedDictionary objectAtIndexedSubscript:]
+-[OrderedDictionary .cxx_destruct]
++[MutableOrderedDictionary dictionaryWithCapacity:]
+-[MutableOrderedDictionary initWithObjects:forKeys:count:]
+-[MutableOrderedDictionary initWithCapacity:]
+-[MutableOrderedDictionary init]
+-[MutableOrderedDictionary initWithCoder:]
+-[MutableOrderedDictionary copyWithZone:]
+-[MutableOrderedDictionary addEntriesFromDictionary:]
+__53-[MutableOrderedDictionary addEntriesFromDictionary:]_block_invoke
+__copy_helper_block_.88
+__destroy_helper_block_.89
+-[MutableOrderedDictionary insertObject:forKey:atIndex:]
+-[MutableOrderedDictionary replaceObjectAtIndex:withObject:]
+-[MutableOrderedDictionary setObject:atIndexedSubscript:]
+-[MutableOrderedDictionary exchangeObjectAtIndex:withObjectAtIndex:]
+-[MutableOrderedDictionary removeAllObjects]
+-[MutableOrderedDictionary removeObjectAtIndex:]
+-[MutableOrderedDictionary removeObjectForKey:]
+-[MutableOrderedDictionary removeObjectsForKeys:]
+-[MutableOrderedDictionary setDictionary:]
+-[MutableOrderedDictionary setObject:forKey:]
+-[MutableOrderedDictionary setValue:forKey:]
+-[MutableOrderedDictionary setObject:forKeyedSubscript:]
+OBJC_CLASSLIST_REFERENCES_$_.11
+OBJC_CLASSLIST_REFERENCES_$_.14
+OBJC_CLASSLIST_REFERENCES_$_.27
+.str.42
+l_OBJC_$_CLASS_METHODS_OrderedDictionary
+l_OBJC_METACLASS_RO_$_OrderedDictionary
+OBJC_CLASS_NAME_.45
+OBJC_METH_VAR_TYPE_.65
+l_OBJC_$_INSTANCE_METHODS_OrderedDictionary
+OBJC_METH_VAR_TYPE_.77
+OBJC_METH_VAR_NAME_.78
+OBJC_METH_VAR_TYPE_.79
+l_OBJC_$_INSTANCE_VARIABLES_OrderedDictionary
+l_OBJC_CLASS_RO_$_OrderedDictionary
+OBJC_CLASSLIST_SUP_REFS_$_.82
+OBJC_CLASSLIST_REFERENCES_$_.85
+.str.90
+OBJC_CLASS_NAME_.116
+OBJC_METH_VAR_NAME_.117
+l_OBJC_$_CLASS_METHODS_MutableOrderedDictionary
+l_OBJC_METACLASS_RO_$_MutableOrderedDictionary
+OBJC_METH_VAR_NAME_.119
+OBJC_METH_VAR_TYPE_.120
+OBJC_METH_VAR_NAME_.121
+OBJC_METH_VAR_TYPE_.123
+OBJC_METH_VAR_TYPE_.125
+OBJC_METH_VAR_TYPE_.128
+l_OBJC_$_INSTANCE_METHODS_MutableOrderedDictionary
+l_OBJC_CLASS_RO_$_MutableOrderedDictionary
+-[MutableOrderedDictionary setObject:forKeyedSubscript:]
+/Users/aegan/code/ML/YCML/YCML/Data Frame/OrderedDictionary.m
+-[MutableOrderedDictionary setValue:forKey:]
+-[MutableOrderedDictionary setObject:forKey:]
+-[MutableOrderedDictionary setDictionary:]
+-[MutableOrderedDictionary removeObjectsForKeys:]
+-[MutableOrderedDictionary removeObjectForKey:]
+-[MutableOrderedDictionary removeObjectAtIndex:]
+-[MutableOrderedDictionary removeAllObjects]
+-[MutableOrderedDictionary exchangeObjectAtIndex:withObjectAtIndex:]
+-[MutableOrderedDictionary setObject:atIndexedSubscript:]
+-[MutableOrderedDictionary replaceObjectAtIndex:withObject:]
+-[MutableOrderedDictionary insertObject:forKey:atIndex:]
+-[MutableOrderedDictionary addEntriesFromDictionary:]
+-[MutableOrderedDictionary copyWithZone:]
+-[MutableOrderedDictionary initWithCoder:]
+-[MutableOrderedDictionary init]
+-[MutableOrderedDictionary initWithCapacity:]
+-[MutableOrderedDictionary initWithObjects:forKeys:count:]
++[MutableOrderedDictionary dictionaryWithCapacity:]
+-[OrderedDictionary .cxx_destruct]
+-[OrderedDictionary objectAtIndexedSubscript:]
+-[OrderedDictionary objectAtIndex:]
+-[OrderedDictionary keyAtIndex:]
+-[OrderedDictionary enumerateKeysAndObjectsWithIndexUsingBlock:]
+-[OrderedDictionary reverseObjectEnumerator]
+-[OrderedDictionary objectEnumerator]
+-[OrderedDictionary reverseKeyEnumerator]
+-[OrderedDictionary keyEnumerator]
+-[OrderedDictionary objectForKey:]
+-[OrderedDictionary indexOfKey:]
+-[OrderedDictionary count]
+-[OrderedDictionary allValues]
+-[OrderedDictionary allKeys]
+-[OrderedDictionary mutableCopyWithZone:]
+-[OrderedDictionary copyWithZone:]
+-[OrderedDictionary encodeWithCoder:]
+-[OrderedDictionary initWithCoder:]
+-[OrderedDictionary classForCoder]
+-[OrderedDictionary initWithObjects:forKeys:count:]
+-[OrderedDictionary initWithObjects:forKeys:]
+-[OrderedDictionary initWithContentsOfURL:]
+-[OrderedDictionary initWithContentsOfFile:]
++[OrderedDictionary dictionaryWithContentsOfURL:]
++[OrderedDictionary dictionaryWithContentsOfFile:]
+-[YCCDProblem initWithInputMatrix:model:]
+-[YCCDProblem parameterCount]
+-[YCCDProblem parameterBounds]
+-[YCCDProblem initialValuesRangeHint]
+-[YCCDProblem objectiveCount]
+-[YCCDProblem constraintCount]
+-[YCCDProblem modes]
+-[YCCDProblem supportedEvaluationMode]
+-[YCCDProblem evaluate:parameters:]
+-[YCCDProblem derivatives:parameters:]
+-[YCCDProblem weightsWithParameters:]
+-[YCCDProblem visibleBiasWithParameters:]
+-[YCCDProblem hiddenBiasWithParameters:]
+-[YCCDProblem storeWeights:visibleBiases:hiddenBiases:toVector:]
+-[YCCDProblem trainedModel]
+-[YCCDProblem setTrainedModel:]
+-[YCCDProblem lambda]
+-[YCCDProblem setLambda:]
+-[YCCDProblem sampleCount]
+-[YCCDProblem setSampleCount:]
+-[YCCDProblem .cxx_destruct]
+OBJC_IVAR_$_YCCDProblem._trainedModel
+OBJC_IVAR_$_YCCDProblem._lambda
+OBJC_IVAR_$_YCCDProblem._sampleCount
+OBJC_CLASS_NAME_.69
+OBJC_CLASS_NAME_.84
+OBJC_PROP_NAME_ATTR_.85
+OBJC_PROP_NAME_ATTR_.86
+OBJC_PROP_NAME_ATTR_.87
+l_OBJC_$_PROTOCOL_REFS_YCDerivativeProblem
+l_OBJC_$_PROTOCOL_INSTANCE_METHODS_YCDerivativeProblem
+l_OBJC_$_PROTOCOL_METHOD_TYPES_YCDerivativeProblem
+l_OBJC_PROTOCOL_$_YCDerivativeProblem
+l_OBJC_LABEL_PROTOCOL_$_YCDerivativeProblem
+l_OBJC_CLASS_PROTOCOLS_$_YCCDProblem
+l_OBJC_METACLASS_RO_$_YCCDProblem
+OBJC_CLASS_NAME_.97
+OBJC_METH_VAR_TYPE_.99
+OBJC_METH_VAR_TYPE_.100
+OBJC_METH_VAR_TYPE_.103
+OBJC_METH_VAR_TYPE_.104
+OBJC_METH_VAR_TYPE_.108
+l_OBJC_$_INSTANCE_METHODS_YCCDProblem
+OBJC_METH_VAR_TYPE_.112
+OBJC_METH_VAR_TYPE_.114
+OBJC_METH_VAR_TYPE_.116
+OBJC_METH_VAR_TYPE_.118
+l_OBJC_$_INSTANCE_VARIABLES_YCCDProblem
+OBJC_PROP_NAME_ATTR_.119
+OBJC_PROP_NAME_ATTR_.120
+OBJC_PROP_NAME_ATTR_.121
+OBJC_PROP_NAME_ATTR_.122
+OBJC_PROP_NAME_ATTR_.123
+OBJC_PROP_NAME_ATTR_.124
+l_OBJC_$_PROP_LIST_YCCDProblem
+l_OBJC_CLASS_RO_$_YCCDProblem
+-[YCCDProblem .cxx_destruct]
+/Users/aegan/code/ML/YCML/YCML/RBM/YCCDProblem.m
+-[YCCDProblem setSampleCount:]
+/Users/aegan/code/ML/YCML/YCML/RBM/YCCDProblem.h
+-[YCCDProblem sampleCount]
+-[YCCDProblem setLambda:]
+-[YCCDProblem lambda]
+-[YCCDProblem setTrainedModel:]
+-[YCCDProblem trainedModel]
+-[YCCDProblem storeWeights:visibleBiases:hiddenBiases:toVector:]
+-[YCCDProblem hiddenBiasWithParameters:]
+-[YCCDProblem visibleBiasWithParameters:]
+-[YCCDProblem weightsWithParameters:]
+-[YCCDProblem derivatives:parameters:]
+-[YCCDProblem evaluate:parameters:]
+-[YCCDProblem supportedEvaluationMode]
+-[YCCDProblem modes]
+-[YCCDProblem constraintCount]
+-[YCCDProblem objectiveCount]
+-[YCCDProblem initialValuesRangeHint]
+-[YCCDProblem parameterBounds]
+-[YCCDProblem parameterCount]
+-[YCCDProblem initWithInputMatrix:model:]
+-[YCDataframe(Transform) uniformSampling:]
+-[YCDataframe(Transform) normalSampling:]
+-[YCDataframe(Transform) sobolSequenceWithCount:]
+-[YCDataframe(Transform) randomWalkSteps:restarts:relativeStepSize:]
+-[YCDataframe(Transform) corruptWithProbability:relativeMagnitude:]
+-[YCDataframe(Transform) dataframeByRandomSampling:replacement:]
+-[YCDataframe(Transform) splitByRandomSampling:]
+OBJC_CLASSLIST_REFERENCES_$_.40
+OBJC_CLASSLIST_REFERENCES_$_.49
+l_OBJC_$_CATEGORY_INSTANCE_METHODS_YCDataframe_$_Transform
+l_OBJC_$_CATEGORY_YCDataframe_$_Transform
+-[YCDataframe(Transform) splitByRandomSampling:]
+/Users/aegan/code/ML/YCML/YCML/Data Frame/YCDataframe+Transform.m
+-[YCDataframe(Transform) dataframeByRandomSampling:replacement:]
+-[YCDataframe(Transform) corruptWithProbability:relativeMagnitude:]
+-[YCDataframe(Transform) randomWalkSteps:restarts:relativeStepSize:]
+-[YCDataframe(Transform) sobolSequenceWithCount:]
+-[YCDataframe(Transform) normalSampling:]
+-[YCDataframe(Transform) uniformSampling:]
++[YCCDTrainer optimizerClass]
++[YCCDTrainer modelClass]
+-[YCCDTrainer init]
+-[YCCDTrainer train:input:]
+-[YCCDTrainer train:inputMatrix:]
+-[YCCDTrainer performTrainingModel:inputMatrix:]
+-[YCCDTrainer initialize:withInputSize:hiddenSize:]
+-[YCCDTrainer respondToIterationNotification:]
+OBJC_CLASSLIST_REFERENCES_$_.1
+OBJC_METH_VAR_NAME_.2
+OBJC_SELECTOR_REFERENCES_.3
+OBJC_METH_VAR_NAME_.4
+OBJC_SELECTOR_REFERENCES_.5
+OBJC_CLASSLIST_REFERENCES_$_.6
+OBJC_CLASSLIST_REFERENCES_$_.61
+_unnamed_cfstring_.80
+.str.91
+_unnamed_cfstring_.92
+.str.93
+_unnamed_cfstring_.94
+OBJC_CLASSLIST_REFERENCES_$_.95
+.str.122
+_unnamed_cfstring_.123
+l_OBJC_$_CLASS_METHODS_YCCDTrainer
+l_OBJC_METACLASS_RO_$_YCCDTrainer
+OBJC_METH_VAR_TYPE_.129
+OBJC_METH_VAR_TYPE_.132
+OBJC_METH_VAR_TYPE_.133
+l_OBJC_$_INSTANCE_METHODS_YCCDTrainer
+l_OBJC_CLASS_RO_$_YCCDTrainer
+-[YCCDTrainer respondToIterationNotification:]
+/Users/aegan/code/ML/YCML/YCML/RBM/YCCDTrainer.m
+-[YCCDTrainer initialize:withInputSize:hiddenSize:]
+-[YCCDTrainer performTrainingModel:inputMatrix:]
+-[YCCDTrainer train:inputMatrix:]
+-[YCCDTrainer train:input:]
+-[YCCDTrainer init]
++[YCCDTrainer modelClass]
++[YCCDTrainer optimizerClass]
+-[YCkFoldValidation initWithSettings:evaluator:]
+-[YCkFoldValidation performTest:input:output:]
+-[YCkFoldValidation handleTrainingStep:]
+OBJC_CLASSLIST_REFERENCES_$_.9
+OBJC_CLASSLIST_REFERENCES_$_.12
+OBJC_CLASSLIST_REFERENCES_$_.19
+.str.24
+_unnamed_cfstring_.25
+OBJC_IVAR_$_YCkFoldValidation._currentFold
+OBJC_CLASSLIST_REFERENCES_$_.28
+OBJC_CLASSLIST_REFERENCES_$_.31
+OBJC_CLASSLIST_REFERENCES_$_.50
+.str.69
+_unnamed_cfstring_.70
+.str.71
+_unnamed_cfstring_.72
+.str.73
+_unnamed_cfstring_.74
+l_OBJC_METACLASS_RO_$_YCkFoldValidation
+l_OBJC_$_INSTANCE_METHODS_YCkFoldValidation
+l_OBJC_$_INSTANCE_VARIABLES_YCkFoldValidation
+l_OBJC_CLASS_RO_$_YCkFoldValidation
+-[YCkFoldValidation handleTrainingStep:]
+/Users/aegan/code/ML/YCML/YCML/Testing/YCkFoldValidation.m
+-[YCkFoldValidation performTest:input:output:]
+-[YCkFoldValidation initWithSettings:evaluator:]
++[YCGenericTrainer trainer]
++[YCGenericTrainer modelClass]
+-[YCGenericTrainer init]
+-[YCGenericTrainer stop]
+-[YCGenericTrainer shouldStop]
+-[YCGenericTrainer setShouldStop:]
+-[YCGenericTrainer settings]
+-[YCGenericTrainer setSettings:]
+-[YCGenericTrainer .cxx_destruct]
+OBJC_IVAR_$_YCGenericTrainer._shouldStop
+OBJC_IVAR_$_YCGenericTrainer._settings
+l_OBJC_$_CLASS_METHODS_YCGenericTrainer
+l_OBJC_METACLASS_RO_$_YCGenericTrainer
+l_OBJC_$_INSTANCE_METHODS_YCGenericTrainer
+l_OBJC_$_INSTANCE_VARIABLES_YCGenericTrainer
+l_OBJC_$_PROP_LIST_YCGenericTrainer
+l_OBJC_CLASS_RO_$_YCGenericTrainer
+-[YCGenericTrainer .cxx_destruct]
+/Users/aegan/code/ML/YCML/YCML/YCGenericTrainer.m
+-[YCGenericTrainer setSettings:]
+/Users/aegan/code/ML/YCML/YCML/YCGenericTrainer.h
+-[YCGenericTrainer settings]
+-[YCGenericTrainer setShouldStop:]
+-[YCGenericTrainer shouldStop]
+-[YCGenericTrainer stop]
+-[YCGenericTrainer init]
++[YCGenericTrainer modelClass]
++[YCGenericTrainer trainer]
+-[YCMonteCarloValidation initWithSettings:evaluator:]
+-[YCMonteCarloValidation performTest:input:output:]
+-[YCMonteCarloValidation handleTrainingStep:]
+OBJC_CLASSLIST_REFERENCES_$_.13
+OBJC_CLASSLIST_REFERENCES_$_.16
+OBJC_IVAR_$_YCMonteCarloValidation._currentIteration
+OBJC_CLASSLIST_REFERENCES_$_.34
+OBJC_CLASSLIST_REFERENCES_$_.37
+.str.75
+_unnamed_cfstring_.76
+l_OBJC_METACLASS_RO_$_YCMonteCarloValidation
+l_OBJC_$_INSTANCE_METHODS_YCMonteCarloValidation
+l_OBJC_$_INSTANCE_VARIABLES_YCMonteCarloValidation
+l_OBJC_CLASS_RO_$_YCMonteCarloValidation
+-[YCMonteCarloValidation handleTrainingStep:]
+/Users/aegan/code/ML/YCML/YCML/Testing/YCMonteCarloValidation.m
+-[YCMonteCarloValidation performTest:input:output:]
+-[YCMonteCarloValidation initWithSettings:evaluator:]
+-[YCFullyConnectedLayer(IO) initWithCoder:]
+-[YCFullyConnectedLayer(IO) encodeWithCoder:]
+-[YCFullyConnectedLayer(IO) copyWithZone:]
+-[YCFullyConnectedLayer(IO) textDescriptionWithModel:layerIndex:]
+.str.13
+_unnamed_cfstring_.14
+.str.59
+_unnamed_cfstring_.60
+.str.61
+_unnamed_cfstring_.62
+l_OBJC_$_CATEGORY_INSTANCE_METHODS_YCFullyConnectedLayer_$_IO
+OBJC_CLASS_NAME_.67
+l_OBJC_CATEGORY_PROTOCOLS_$_YCFullyConnectedLayer_$_IO
+l_OBJC_$_CATEGORY_YCFullyConnectedLayer_$_IO
+-[YCFullyConnectedLayer(IO) textDescriptionWithModel:layerIndex:]
+/Users/aegan/code/ML/YCML/YCML/IO/YCFullyConnectedLayer+IO.m
+-[YCFullyConnectedLayer(IO) copyWithZone:]
+-[YCFullyConnectedLayer(IO) encodeWithCoder:]
+-[YCFullyConnectedLayer(IO) initWithCoder:]
++[YCBackPropTrainer problemClass]
++[YCBackPropTrainer optimizerClass]
++[YCBackPropTrainer modelClass]
+-[YCBackPropTrainer init]
+-[YCBackPropTrainer performTrainingModel:inputMatrix:outputMatrix:]
+__67-[YCBackPropTrainer performTrainingModel:inputMatrix:outputMatrix:]_block_invoke
+-[YCBackPropTrainer initialize:withInputSize:hiddenSize:hiddenCount:outputSize:L1:L2:]
+__86-[YCBackPropTrainer initialize:withInputSize:hiddenSize:hiddenCount:outputSize:L1:L2:]_block_invoke
+__copy_helper_block_.119
+__destroy_helper_block_.120
+-[YCBackPropTrainer respondToIterationNotification:]
+-[YCBackPropTrainer stop]
+-[YCBackPropTrainer .cxx_destruct]
+OBJC_CLASSLIST_REFERENCES_$_.2
+.str.22
+_unnamed_cfstring_.23
+.str.26
+_unnamed_cfstring_.27
+OBJC_IVAR_$_YCBackPropTrainer._currentOptimizer
+OBJC_CLASSLIST_REFERENCES_$_.68
+.str.85
+_unnamed_cfstring_.86
+.str.87
+_unnamed_cfstring_.88
+.str.101
+OBJC_CLASSLIST_REFERENCES_$_.108
+OBJC_CLASSLIST_REFERENCES_$_.116
+OBJC_SELECTOR_REFERENCES_.118
+__block_descriptor_tmp.121
+.str.126
+_unnamed_cfstring_.127
+.str.128
+_unnamed_cfstring_.129
+.str.130
+_unnamed_cfstring_.131
+.str.132
+_unnamed_cfstring_.133
+OBJC_CLASSLIST_REFERENCES_$_.134
+.str.137
+_unnamed_cfstring_.138
+l_OBJC_$_CLASS_METHODS_YCBackPropTrainer
+l_OBJC_METACLASS_RO_$_YCBackPropTrainer
+OBJC_CLASS_NAME_.144
+OBJC_METH_VAR_NAME_.146
+OBJC_METH_VAR_TYPE_.149
+l_OBJC_$_INSTANCE_METHODS_YCBackPropTrainer
+OBJC_METH_VAR_NAME_.152
+OBJC_METH_VAR_TYPE_.153
+l_OBJC_$_INSTANCE_VARIABLES_YCBackPropTrainer
+l_OBJC_CLASS_RO_$_YCBackPropTrainer
+-[YCBackPropTrainer .cxx_destruct]
+/Users/aegan/code/ML/YCML/YCML/FFN/YCBackPropTrainer.m
+-[YCBackPropTrainer stop]
+-[YCBackPropTrainer respondToIterationNotification:]
+-[YCBackPropTrainer initialize:withInputSize:hiddenSize:hiddenCount:outputSize:L1:L2:]
+-[YCBackPropTrainer performTrainingModel:inputMatrix:outputMatrix:]
+-[YCBackPropTrainer init]
++[YCBackPropTrainer modelClass]
++[YCBackPropTrainer optimizerClass]
++[YCBackPropTrainer problemClass]
++[YCDataframe dataframe]
++[YCDataframe dataframeWithDictionary:]
++[YCDataframe dataframeWithDictionary:deepCopy:]
+-[YCDataframe init]
+-[YCDataframe dataframeByFilteringAttributes:]
+-[YCDataframe attributeCount]
+-[YCDataframe arrayReferenceForAttribute:]
+-[YCDataframe allValuesForAttribute:]
+-[YCDataframe valueOfAttribute:index:]
+-[YCDataframe setValue:attribute:index:]
+-[YCDataframe sampleAtIndex:]
+-[YCDataframe samplesAtIndexes:]
+__32-[YCDataframe samplesAtIndexes:]_block_invoke
+-[YCDataframe samplesNotInIndexes:]
+-[YCDataframe sortByAttribute:ascending:]
+__41-[YCDataframe sortByAttribute:ascending:]_block_invoke
+__copy_helper_block_.74
+__destroy_helper_block_.75
+-[YCDataframe classesForAttribute:]
+-[YCDataframe addBlankAttributeWithIdentifier:]
+-[YCDataframe addAttributeWithIdentifier:data:]
+-[YCDataframe addAttributeWithIdentifier:data:deepCopy:]
+-[YCDataframe removeAttributeWithIdentifier:]
+-[YCDataframe renameAttribute:to:]
+-[YCDataframe autoDetectTypeForAttribute:]
+-[YCDataframe autoDetectTypes]
+-[YCDataframe addSampleWithData:]
+-[YCDataframe addSamplesWithData:]
+-[YCDataframe insertSampleWithData:atIndex:]
+-[YCDataframe insertSamplesWithData:atIndex:]
+-[YCDataframe replaceSampleAtIndex:withData:]
+-[YCDataframe removeSampleAtIndex:]
+-[YCDataframe removeSamplesAtIndexes:]
+-[YCDataframe removeAllSamples]
+-[YCDataframe appendDataframe:]
+-[YCDataframe stats]
+-[YCDataframe stat:]
+-[YCDataframe statsForAttribute:]
+-[YCDataframe stat:forAttribute:]
+-[YCDataframe outlierIndexesWithFenceMultiplier:]
+-[YCDataframe allSamples]
+-[YCDataframe allSampleValues]
+-[YCDataframe allData]
+-[YCDataframe dataCount]
+-[YCDataframe attributeKeys]
+-[YCDataframe valueForUndefinedKey:]
+-[YCDataframe setValue:forKey:]
+-[YCDataframe encodeWithCoder:]
+-[YCDataframe initWithCoder:]
+-[YCDataframe copyWithZone:]
+-[YCDataframe shallowCopy]
+-[YCDataframe shallowCopyWithAttributesOfType:]
+-[YCDataframe description]
+-[YCDataframe correctValueFor:adjustTypeOfAttribute:]
+-[YCDataframe attributeTypes]
+-[YCDataframe setAttributeTypes:]
+-[YCDataframe .cxx_destruct]
+OBJC_IVAR_$_YCDataframe._attributeTypes
+OBJC_CLASSLIST_REFERENCES_$_.18
+OBJC_IVAR_$_YCDataframe._f
+OBJC_CLASSLIST_REFERENCES_$_.59
+.str.76
+__block_descriptor_tmp.77
+OBJC_SELECTOR_REFERENCES_.79
+OBJC_CLASSLIST_REFERENCES_$_.99
+OBJC_CLASSLIST_REFERENCES_$_.102
+OBJC_CLASSLIST_REFERENCES_$_.120
+OBJC_SELECTOR_REFERENCES_.122
+OBJC_CLASSLIST_REFERENCES_$_.155
+OBJC_METH_VAR_NAME_.156
+OBJC_SELECTOR_REFERENCES_.157
+OBJC_SELECTOR_REFERENCES_.161
+.str.162
+_unnamed_cfstring_.163
+OBJC_SELECTOR_REFERENCES_.165
+.str.166
+_unnamed_cfstring_.167
+OBJC_METH_VAR_NAME_.168
+OBJC_SELECTOR_REFERENCES_.169
+OBJC_METH_VAR_NAME_.170
+OBJC_SELECTOR_REFERENCES_.171
+OBJC_SELECTOR_REFERENCES_.173
+OBJC_METH_VAR_NAME_.174
+OBJC_SELECTOR_REFERENCES_.175
+OBJC_SELECTOR_REFERENCES_.177
+.str.178
+_unnamed_cfstring_.179
+OBJC_METH_VAR_NAME_.180
+OBJC_SELECTOR_REFERENCES_.181
+.str.182
+_unnamed_cfstring_.183
+OBJC_SELECTOR_REFERENCES_.185
+OBJC_SELECTOR_REFERENCES_.187
+OBJC_METH_VAR_NAME_.188
+OBJC_METH_VAR_TYPE_.189
+l_OBJC_$_CLASS_METHODS_YCDataframe
+OBJC_METH_VAR_NAME_.191
+OBJC_METH_VAR_TYPE_.192
+OBJC_METH_VAR_TYPE_.193
+OBJC_METH_VAR_NAME_.194
+OBJC_METH_VAR_TYPE_.195
+OBJC_CLASS_NAME_.196
+OBJC_METH_VAR_NAME_.197
+OBJC_METH_VAR_TYPE_.198
+OBJC_CLASS_NAME_.199
+l_OBJC_CLASS_PROTOCOLS_$_YCDataframe
+l_OBJC_METACLASS_RO_$_YCDataframe
+OBJC_METH_VAR_NAME_.201
+OBJC_METH_VAR_TYPE_.202
+OBJC_METH_VAR_NAME_.203
+OBJC_METH_VAR_NAME_.204
+OBJC_METH_VAR_TYPE_.205
+OBJC_METH_VAR_NAME_.206
+OBJC_METH_VAR_TYPE_.207
+OBJC_METH_VAR_NAME_.208
+OBJC_METH_VAR_TYPE_.209
+OBJC_METH_VAR_NAME_.210
+OBJC_METH_VAR_NAME_.211
+OBJC_METH_VAR_TYPE_.212
+OBJC_METH_VAR_NAME_.213
+OBJC_METH_VAR_TYPE_.214
+OBJC_METH_VAR_TYPE_.215
+OBJC_METH_VAR_NAME_.216
+OBJC_METH_VAR_NAME_.217
+OBJC_METH_VAR_NAME_.218
+OBJC_METH_VAR_TYPE_.219
+OBJC_METH_VAR_NAME_.220
+OBJC_METH_VAR_TYPE_.221
+OBJC_METH_VAR_NAME_.222
+OBJC_METH_VAR_TYPE_.223
+OBJC_METH_VAR_NAME_.224
+OBJC_METH_VAR_NAME_.225
+OBJC_METH_VAR_NAME_.226
+OBJC_METH_VAR_NAME_.227
+OBJC_METH_VAR_TYPE_.228
+OBJC_METH_VAR_NAME_.229
+OBJC_METH_VAR_TYPE_.230
+OBJC_METH_VAR_NAME_.231
+OBJC_METH_VAR_NAME_.232
+OBJC_METH_VAR_NAME_.233
+OBJC_METH_VAR_NAME_.234
+OBJC_METH_VAR_TYPE_.235
+OBJC_METH_VAR_NAME_.236
+OBJC_METH_VAR_NAME_.237
+OBJC_METH_VAR_NAME_.238
+l_OBJC_$_INSTANCE_METHODS_YCDataframe
+OBJC_METH_VAR_NAME_.239
+OBJC_METH_VAR_TYPE_.240
+OBJC_METH_VAR_NAME_.241
+OBJC_METH_VAR_TYPE_.242
+OBJC_METH_VAR_NAME_.243
+OBJC_METH_VAR_TYPE_.244
+l_OBJC_$_INSTANCE_VARIABLES_YCDataframe
+OBJC_PROP_NAME_ATTR_.245
+OBJC_PROP_NAME_ATTR_.246
+OBJC_PROP_NAME_ATTR_.247
+OBJC_PROP_NAME_ATTR_.248
+OBJC_PROP_NAME_ATTR_.249
+OBJC_PROP_NAME_ATTR_.250
+OBJC_PROP_NAME_ATTR_.251
+l_OBJC_$_PROP_LIST_YCDataframe
+l_OBJC_CLASS_RO_$_YCDataframe
+-[YCDataframe .cxx_destruct]
+/Users/aegan/code/ML/YCML/YCML/Data Frame/YCDataframe.m
+-[YCDataframe setAttributeTypes:]
+/Users/aegan/code/ML/YCML/YCML/Data Frame/YCDataframe.h
+-[YCDataframe attributeTypes]
+-[YCDataframe correctValueFor:adjustTypeOfAttribute:]
+-[YCDataframe description]
+-[YCDataframe shallowCopyWithAttributesOfType:]
+-[YCDataframe shallowCopy]
+-[YCDataframe copyWithZone:]
+-[YCDataframe initWithCoder:]
+-[YCDataframe encodeWithCoder:]
+-[YCDataframe setValue:forKey:]
+-[YCDataframe valueForUndefinedKey:]
+-[YCDataframe attributeKeys]
+-[YCDataframe dataCount]
+-[YCDataframe allData]
+-[YCDataframe allSampleValues]
+-[YCDataframe allSamples]
+-[YCDataframe outlierIndexesWithFenceMultiplier:]
+-[YCDataframe stat:forAttribute:]
+-[YCDataframe statsForAttribute:]
+-[YCDataframe stat:]
+-[YCDataframe stats]
+-[YCDataframe appendDataframe:]
+-[YCDataframe removeAllSamples]
+-[YCDataframe removeSamplesAtIndexes:]
+-[YCDataframe removeSampleAtIndex:]
+-[YCDataframe replaceSampleAtIndex:withData:]
+-[YCDataframe insertSamplesWithData:atIndex:]
+-[YCDataframe insertSampleWithData:atIndex:]
+-[YCDataframe addSamplesWithData:]
+-[YCDataframe addSampleWithData:]
+-[YCDataframe autoDetectTypes]
+-[YCDataframe autoDetectTypeForAttribute:]
+-[YCDataframe renameAttribute:to:]
+-[YCDataframe removeAttributeWithIdentifier:]
+-[YCDataframe addAttributeWithIdentifier:data:deepCopy:]
+-[YCDataframe addAttributeWithIdentifier:data:]
+-[YCDataframe addBlankAttributeWithIdentifier:]
+-[YCDataframe classesForAttribute:]
+-[YCDataframe sortByAttribute:ascending:]
+-[YCDataframe samplesNotInIndexes:]
+-[YCDataframe samplesAtIndexes:]
+-[YCDataframe sampleAtIndex:]
+-[YCDataframe setValue:attribute:index:]
+-[YCDataframe valueOfAttribute:index:]
+-[YCDataframe allValuesForAttribute:]
+-[YCDataframe arrayReferenceForAttribute:]
+-[YCDataframe attributeCount]
+-[YCDataframe dataframeByFilteringAttributes:]
+-[YCDataframe init]
++[YCDataframe dataframeWithDictionary:deepCopy:]
++[YCDataframe dataframeWithDictionary:]
++[YCDataframe dataframe]
++[YCNSGAII individualClass]
+-[YCNSGAII initWithProblem:settings:]
+-[YCNSGAII iterate:]
+-[YCNSGAII nonDominatedSortingWithPopulation:]
+-[YCNSGAII crowdingDistanceCalculationWithPopulation:]
+__54-[YCNSGAII crowdingDistanceCalculationWithPopulation:]_block_invoke
+-[YCNSGAII tournamentSelectionWithPopulation:]
+-[YCNSGAII simulatedBinaryCrossoverWithPopulation:]
+-[YCNSGAII polynomialMutationWithPopulation:]
+-[YCNSGAII reduce:ToSize:]
+__26-[YCNSGAII reduce:ToSize:]_block_invoke
+-[YCNSGAIndividual initWithRandomValuesInBounds:]
+-[YCNSGAIndividual copyWithZone:]
+-[YCNSGAIndividual initWithCoder:]
+-[YCNSGAIndividual encodeWithCoder:]
+-[YCNSGAIndividual rank]
+-[YCNSGAIndividual setRank:]
+-[YCNSGAIndividual crowdingDistance]
+-[YCNSGAIndividual setCrowdingDistance:]
+-[YCNSGAIndividual n]
+-[YCNSGAIndividual setN:]
+-[YCNSGAIndividual s]
+-[YCNSGAIndividual setS:]
+-[YCNSGAIndividual .cxx_destruct]
+OBJC_CLASSLIST_REFERENCES_$_.94
+.str.99
+OBJC_METH_VAR_NAME_.120
+OBJC_SELECTOR_REFERENCES_.121
+OBJC_CLASSLIST_REFERENCES_$_.126
+__block_descriptor_tmp.131
+OBJC_CLASS_NAME_.134
+l_OBJC_$_CLASS_METHODS_YCNSGAII
+l_OBJC_METACLASS_RO_$_YCNSGAII
+OBJC_METH_VAR_TYPE_.136
+OBJC_METH_VAR_TYPE_.138
+OBJC_METH_VAR_TYPE_.139
+OBJC_METH_VAR_TYPE_.140
+l_OBJC_$_INSTANCE_METHODS_YCNSGAII
+l_OBJC_CLASS_RO_$_YCNSGAII
+OBJC_CLASSLIST_SUP_REFS_$_.142
+.str.149
+_unnamed_cfstring_.150
+.str.153
+_unnamed_cfstring_.154
+OBJC_SELECTOR_REFERENCES_.158
+OBJC_SELECTOR_REFERENCES_.160
+OBJC_METH_VAR_NAME_.161
+OBJC_SELECTOR_REFERENCES_.162
+OBJC_IVAR_$_YCNSGAIndividual._rank
+OBJC_IVAR_$_YCNSGAIndividual._crowdingDistance
+OBJC_IVAR_$_YCNSGAIndividual._n
+OBJC_IVAR_$_YCNSGAIndividual._s
+OBJC_CLASS_NAME_.163
+l_OBJC_METACLASS_RO_$_YCNSGAIndividual
+OBJC_CLASS_NAME_.164
+OBJC_METH_VAR_NAME_.166
+OBJC_METH_VAR_TYPE_.172
+l_OBJC_$_INSTANCE_METHODS_YCNSGAIndividual
+OBJC_METH_VAR_TYPE_.177
+OBJC_METH_VAR_NAME_.178
+l_OBJC_$_INSTANCE_VARIABLES_YCNSGAIndividual
+OBJC_PROP_NAME_ATTR_.180
+OBJC_PROP_NAME_ATTR_.181
+OBJC_PROP_NAME_ATTR_.182
+OBJC_PROP_NAME_ATTR_.183
+OBJC_PROP_NAME_ATTR_.184
+OBJC_PROP_NAME_ATTR_.185
+OBJC_PROP_NAME_ATTR_.186
+l_OBJC_$_PROP_LIST_YCNSGAIndividual
+l_OBJC_CLASS_RO_$_YCNSGAIndividual
+OBJC_SELECTOR_REFERENCES_.188
+OBJC_CLASS_NAME_.189
+/Users/aegan/code/ML/YCML/YCML/Optimization/Genetic Algorithms/YCNSGAII.m
+-[YCNSGAIndividual .cxx_destruct]
+-[YCNSGAIndividual setS:]
+/Users/aegan/code/ML/YCML/YCML/Optimization/Genetic Algorithms/YCNSGAII.h
+-[YCNSGAIndividual s]
+-[YCNSGAIndividual setN:]
+-[YCNSGAIndividual n]
+-[YCNSGAIndividual setCrowdingDistance:]
+-[YCNSGAIndividual crowdingDistance]
+-[YCNSGAIndividual setRank:]
+-[YCNSGAIndividual rank]
+-[YCNSGAIndividual encodeWithCoder:]
+-[YCNSGAIndividual initWithCoder:]
+-[YCNSGAIndividual copyWithZone:]
+-[YCNSGAIndividual initWithRandomValuesInBounds:]
+-[YCNSGAII reduce:ToSize:]
+-[YCNSGAII polynomialMutationWithPopulation:]
+-[YCNSGAII simulatedBinaryCrossoverWithPopulation:]
+-[YCNSGAII tournamentSelectionWithPopulation:]
+-[YCNSGAII crowdingDistanceCalculationWithPopulation:]
+-[YCNSGAII nonDominatedSortingWithPopulation:]
+-[YCNSGAII iterate:]
+-[YCNSGAII initWithProblem:settings:]
++[YCNSGAII individualClass]
+-[YCSupervisedModel activateWithDataframe:]
+-[YCSupervisedModel activateWithMatrix:]
+-[YCSupervisedModel inputSize]
+-[YCSupervisedModel outputSize]
+-[YCSupervisedModel properties]
+-[YCSupervisedModel setProperties:]
+-[YCSupervisedModel statistics]
+-[YCSupervisedModel setStatistics:]
+-[YCSupervisedModel .cxx_destruct]
+OBJC_IVAR_$_YCSupervisedModel.properties
+OBJC_IVAR_$_YCSupervisedModel.statistics
+l_OBJC_METACLASS_RO_$_YCSupervisedModel
+OBJC_CLASS_NAME_.17
+l_OBJC_$_INSTANCE_METHODS_YCSupervisedModel
+l_OBJC_$_INSTANCE_VARIABLES_YCSupervisedModel
+l_OBJC_$_PROP_LIST_YCSupervisedModel
+l_OBJC_CLASS_RO_$_YCSupervisedModel
+-[YCSupervisedModel .cxx_destruct]
+/Users/aegan/code/ML/YCML/YCML/YCSupervisedModel.m
+-[YCGenericModel setStatistics:]
+/Users/aegan/code/ML/YCML/YCML/YCGenericModel.h
+-[YCGenericModel statistics]
+-[YCGenericModel setProperties:]
+-[YCGenericModel properties]
+-[YCSupervisedModel outputSize]
+-[YCSupervisedModel inputSize]
+-[YCSupervisedModel activateWithMatrix:]
+-[YCSupervisedModel activateWithDataframe:]
+-[YCBinaryRBM prePropagateToHidden:]
+-[YCBinaryRBM prePropagateToVisible:]
+-[YCBinaryRBM propagateToHidden:]
+__33-[YCBinaryRBM propagateToHidden:]_block_invoke
+-[YCBinaryRBM propagateToVisible:]
+__34-[YCBinaryRBM propagateToVisible:]_block_invoke
+-[YCBinaryRBM sampleHiddenGivenVisible:]
+-[YCBinaryRBM sampleVisibleGivenHidden:]
+-[YCBinaryRBM gibbsStep:]
+-[YCBinaryRBM freeEnergy:]
+__26-[YCBinaryRBM freeEnergy:]_block_invoke
+-[YCBinaryRBM visibleSize]
+-[YCBinaryRBM hiddenSize]
+-[YCBinaryRBM weights]
+-[YCBinaryRBM setWeights:]
+-[YCBinaryRBM visibleBiases]
+-[YCBinaryRBM setVisibleBiases:]
+-[YCBinaryRBM hiddenBiases]
+-[YCBinaryRBM setHiddenBiases:]
+-[YCBinaryRBM .cxx_destruct]
+__block_descriptor_tmp.17
+__block_literal_global.18
+__block_descriptor_tmp.29
+__block_literal_global.30
+OBJC_IVAR_$_YCBinaryRBM._weights
+OBJC_IVAR_$_YCBinaryRBM._visibleBiases
+OBJC_IVAR_$_YCBinaryRBM._hiddenBiases
+l_OBJC_METACLASS_RO_$_YCBinaryRBM
+OBJC_CLASS_NAME_.41
+l_OBJC_$_INSTANCE_METHODS_YCBinaryRBM
+l_OBJC_$_INSTANCE_VARIABLES_YCBinaryRBM
+OBJC_PROP_NAME_ATTR_.58
+OBJC_PROP_NAME_ATTR_.59
+l_OBJC_$_PROP_LIST_YCBinaryRBM
+l_OBJC_CLASS_RO_$_YCBinaryRBM
+-[YCBinaryRBM .cxx_destruct]
+/Users/aegan/code/ML/YCML/YCML/RBM/YCBinaryRBM.m
+-[YCBinaryRBM setHiddenBiases:]
+/Users/aegan/code/ML/YCML/YCML/RBM/YCBinaryRBM.h
+-[YCBinaryRBM hiddenBiases]
+-[YCBinaryRBM setVisibleBiases:]
+-[YCBinaryRBM visibleBiases]
+-[YCBinaryRBM setWeights:]
+-[YCBinaryRBM weights]
+-[YCBinaryRBM hiddenSize]
+-[YCBinaryRBM visibleSize]
+-[YCBinaryRBM freeEnergy:]
+-[YCBinaryRBM gibbsStep:]
+-[YCBinaryRBM sampleVisibleGivenHidden:]
+-[YCBinaryRBM sampleHiddenGivenVisible:]
+-[YCBinaryRBM propagateToVisible:]
+-[YCBinaryRBM propagateToHidden:]
+-[YCBinaryRBM prePropagateToVisible:]
+-[YCBinaryRBM prePropagateToHidden:]
+-[YCLinearLayer activationFunction:]
+-[YCLinearLayer activationFunctionGradient:]
+__44-[YCLinearLayer activationFunctionGradient:]_block_invoke
+l_OBJC_METACLASS_RO_$_YCLinearLayer
+l_OBJC_$_INSTANCE_METHODS_YCLinearLayer
+l_OBJC_CLASS_RO_$_YCLinearLayer
+/Users/aegan/code/ML/YCML/YCML/Layers/YCLinearLayer.m
+-[YCLinearLayer activationFunctionGradient:]
+-[YCLinearLayer activationFunction:]
+-[YCBinaryRBM(IO) textDescription]
+.str.3
+_unnamed_cfstring_.4
+l_OBJC_$_CATEGORY_INSTANCE_METHODS_YCBinaryRBM_$_IO
+OBJC_METH_VAR_TYPE_.34
+OBJC_METH_VAR_TYPE_.38
+OBJC_CLASS_NAME_.56
+OBJC_PROP_NAME_ATTR_.57
+OBJC_CLASS_NAME_.71
+l_OBJC_CATEGORY_PROTOCOLS_$_YCBinaryRBM_$_IO
+l_OBJC_$_PROP_LIST_YCBinaryRBM_$_IO
+l_OBJC_$_CATEGORY_YCBinaryRBM_$_IO
+-[YCBinaryRBM(IO) textDescription]
+/Users/aegan/code/ML/YCML/YCML/IO/YCBinaryRBM+IO.m
++[YCSMORegressionTrainer modelClass]
+-[YCSMORegressionTrainer init]
+-[YCSMORegressionTrainer train:inputMatrix:outputMatrix:]
+__57-[YCSMORegressionTrainer train:inputMatrix:outputMatrix:]_block_invoke
+-[YCSMORegressionTrainer examine:model:input:output:lambdas:order:C:bias:epsilon:]
+-[YCSMORegressionTrainer step:input:output:lambdas:i1:i2:bias:epsilon:C:]
+-[YCSMORegressionTrainer errorForModel:input:output:lambdas:exampleIndex:bias:]
+-[YCSMORegressionTrainer outputForModel:input:lambdas:exampleIndex:bias:]
+-[YCSMORegressionTrainer cache]
+-[YCSMORegressionTrainer .cxx_destruct]
+-[NSMutableOrderedSet(Shuffling) shuffle]
+OBJC_CLASSLIST_REFERENCES_$_.32
+OBJC_CLASSLIST_REFERENCES_$_.43
+OBJC_CLASSLIST_REFERENCES_$_.51
+OBJC_IVAR_$_YCSMORegressionTrainer._cache
+OBJC_CLASSLIST_REFERENCES_$_.104
+l_OBJC_$_CLASS_METHODS_YCSMORegressionTrainer
+l_OBJC_METACLASS_RO_$_YCSMORegressionTrainer
+OBJC_METH_VAR_TYPE_.109
+OBJC_METH_VAR_TYPE_.111
+OBJC_METH_VAR_TYPE_.113
+OBJC_METH_VAR_TYPE_.115
+l_OBJC_$_INSTANCE_METHODS_YCSMORegressionTrainer
+l_OBJC_$_INSTANCE_VARIABLES_YCSMORegressionTrainer
+l_OBJC_$_PROP_LIST_YCSMORegressionTrainer
+l_OBJC_CLASS_RO_$_YCSMORegressionTrainer
+OBJC_CLASS_NAME_.124
+l_OBJC_$_CATEGORY_INSTANCE_METHODS_NSMutableOrderedSet_$_Shuffling
+l_OBJC_$_CATEGORY_NSMutableOrderedSet_$_Shuffling
+-[NSMutableOrderedSet(Shuffling) shuffle]
+/Users/aegan/code/ML/YCML/YCML/SVR/YCSMORegressionTrainer.m
+-[YCSMORegressionTrainer .cxx_destruct]
+-[YCSMORegressionTrainer cache]
+-[YCSMORegressionTrainer outputForModel:input:lambdas:exampleIndex:bias:]
+-[YCSMORegressionTrainer errorForModel:input:output:lambdas:exampleIndex:bias:]
+-[YCSMORegressionTrainer step:input:output:lambdas:i1:i2:bias:epsilon:C:]
+-[YCSMORegressionTrainer examine:model:input:output:lambdas:order:C:bias:epsilon:]
+-[YCSMORegressionTrainer train:inputMatrix:outputMatrix:]
+-[YCSMORegressionTrainer init]
++[YCSMORegressionTrainer modelClass]
+-[YCSVR activateWithMatrix:]
+-[YCSVR inputSize]
+-[YCSVR outputSize]
+-[YCSVR kernel]
+-[YCSVR setKernel:]
+-[YCSVR sv]
+-[YCSVR setSv:]
+-[YCSVR lambda]
+-[YCSVR setLambda:]
+-[YCSVR b]
+-[YCSVR setB:]
+-[YCSVR inputTransform]
+-[YCSVR setInputTransform:]
+-[YCSVR outputTransform]
+-[YCSVR setOutputTransform:]
+-[YCSVR .cxx_destruct]
+OBJC_IVAR_$_YCSVR._kernel
+OBJC_IVAR_$_YCSVR._sv
+OBJC_IVAR_$_YCSVR._lambda
+OBJC_IVAR_$_YCSVR._b
+OBJC_IVAR_$_YCSVR._inputTransform
+OBJC_IVAR_$_YCSVR._outputTransform
+l_OBJC_METACLASS_RO_$_YCSVR
+l_OBJC_$_INSTANCE_METHODS_YCSVR
+l_OBJC_$_INSTANCE_VARIABLES_YCSVR
+OBJC_PROP_NAME_ATTR_.53
+OBJC_PROP_NAME_ATTR_.54
+OBJC_PROP_NAME_ATTR_.55
+OBJC_PROP_NAME_ATTR_.56
+l_OBJC_$_PROP_LIST_YCSVR
+l_OBJC_CLASS_RO_$_YCSVR
+-[YCSVR .cxx_destruct]
+/Users/aegan/code/ML/YCML/YCML/SVR/YCSVR.m
+-[YCSVR setOutputTransform:]
+/Users/aegan/code/ML/YCML/YCML/SVR/YCSVR.h
+-[YCSVR outputTransform]
+-[YCSVR setInputTransform:]
+-[YCSVR inputTransform]
+-[YCSVR setB:]
+-[YCSVR b]
+-[YCSVR setLambda:]
+-[YCSVR lambda]
+-[YCSVR setSv:]
+-[YCSVR sv]
+-[YCSVR setKernel:]
+-[YCSVR kernel]
+-[YCSVR outputSize]
+-[YCSVR inputSize]
+-[YCSVR activateWithMatrix:]
+-[YCLinkedList init]
++[YCLinkedList listWithObject:]
+-[YCLinkedList initWithObject:]
+-[YCLinkedList pushBack:]
+-[YCLinkedList lastObject]
+-[YCLinkedList firstObject]
+-[YCLinkedList firstNode]
+-[YCLinkedList lastNode]
+-[YCLinkedList pushFront:]
+-[YCLinkedList insertObject:beforeNode:]
+-[YCLinkedList insertObject:afterNode:]
+-[YCLinkedList insertObject:betweenNode:andNode:]
+-[YCLinkedList pushNodeBack:]
+-[YCLinkedList pushNodeFront:]
+-[YCLinkedList objectAtIndex:]
+-[YCLinkedList popBack]
+-[YCLinkedList popFront]
+-[YCLinkedList removeNode:]
+-[YCLinkedList removeObjectEqualTo:]
+-[YCLinkedList removeAllObjects]
+-[YCLinkedList count]
+-[YCLinkedList containsObject:]
+-[YCLinkedList allObjects]
+-[YCLinkedList allObjectsReverse]
+-[YCLinkedList dealloc]
+l_OBJC_$_CLASS_METHODS_YCLinkedList
+l_OBJC_METACLASS_RO_$_YCLinkedList
+l_OBJC_$_INSTANCE_METHODS_YCLinkedList
+l_OBJC_$_INSTANCE_VARIABLES_YCLinkedList
+l_OBJC_$_PROP_LIST_YCLinkedList
+l_OBJC_CLASS_RO_$_YCLinkedList
+LNodeMake
+/Users/aegan/code/ML/YCML/YCML/SVR/YCLinkedList.m
+-[YCLinkedList dealloc]
+-[YCLinkedList allObjectsReverse]
+-[YCLinkedList allObjects]
+-[YCLinkedList containsObject:]
+-[YCLinkedList count]
+-[YCLinkedList removeAllObjects]
+-[YCLinkedList removeObjectEqualTo:]
+-[YCLinkedList removeNode:]
+-[YCLinkedList popFront]
+-[YCLinkedList popBack]
+-[YCLinkedList objectAtIndex:]
+-[YCLinkedList pushNodeFront:]
+-[YCLinkedList pushNodeBack:]
+-[YCLinkedList insertObject:betweenNode:andNode:]
+-[YCLinkedList insertObject:afterNode:]
+-[YCLinkedList insertObject:beforeNode:]
+-[YCLinkedList pushFront:]
+-[YCLinkedList lastNode]
+-[YCLinkedList firstNode]
+-[YCLinkedList firstObject]
+-[YCLinkedList lastObject]
+-[YCLinkedList pushBack:]
+-[YCLinkedList initWithObject:]
++[YCLinkedList listWithObject:]
+-[YCLinkedList init]
++[YCELMTrainer modelClass]
+-[YCELMTrainer init]
+-[YCELMTrainer performTrainingModel:inputMatrix:outputMatrix:]
+OBJC_CLASSLIST_REFERENCES_$_.26
+OBJC_CLASSLIST_REFERENCES_$_.54
+OBJC_CLASSLIST_REFERENCES_$_.55
+l_OBJC_$_CLASS_METHODS_YCELMTrainer
+l_OBJC_METACLASS_RO_$_YCELMTrainer
+l_OBJC_$_INSTANCE_METHODS_YCELMTrainer
+l_OBJC_CLASS_RO_$_YCELMTrainer
+-[YCELMTrainer performTrainingModel:inputMatrix:outputMatrix:]
+/Users/aegan/code/ML/YCML/YCML/ELM/YCELMTrainer.m
+-[YCELMTrainer init]
++[YCELMTrainer modelClass]
+conditionalConvertToMatrix
+/Users/aegan/code/ML/YCML/YCML/Regression Metrics/YCRegressionMetrics.m
+RSquared
+MSE
++[YCGenericModel model]
+-[YCGenericModel init]
+-[YCGenericModel statistics]
+-[YCGenericModel setStatistics:]
+-[YCGenericModel properties]
+-[YCGenericModel setProperties:]
+-[YCGenericModel trainingSettings]
+-[YCGenericModel setTrainingSettings:]
+-[YCGenericModel .cxx_destruct]
+OBJC_IVAR_$_YCGenericModel._statistics
+OBJC_IVAR_$_YCGenericModel._properties
+OBJC_IVAR_$_YCGenericModel._trainingSettings
+l_OBJC_$_CLASS_METHODS_YCGenericModel
+l_OBJC_METACLASS_RO_$_YCGenericModel
+OBJC_CLASS_NAME_.12
+l_OBJC_$_INSTANCE_METHODS_YCGenericModel
+l_OBJC_$_INSTANCE_VARIABLES_YCGenericModel
+OBJC_PROP_NAME_ATTR_.26
+l_OBJC_$_PROP_LIST_YCGenericModel
+l_OBJC_CLASS_RO_$_YCGenericModel
+-[YCGenericModel .cxx_destruct]
+/Users/aegan/code/ML/YCML/YCML/YCGenericModel.m
+-[YCGenericModel setTrainingSettings:]
+-[YCGenericModel trainingSettings]
+-[YCGenericModel init]
++[YCGenericModel model]
+-[YCSupervisedTrainer train:input:output:]
+-[YCSupervisedTrainer train:inputMatrix:outputMatrix:]
+-[YCSupervisedTrainer performTrainingModel:inputMatrix:outputMatrix:]
+l_OBJC_METACLASS_RO_$_YCSupervisedTrainer
+l_OBJC_$_INSTANCE_METHODS_YCSupervisedTrainer
+l_OBJC_CLASS_RO_$_YCSupervisedTrainer
+-[YCSupervisedTrainer performTrainingModel:inputMatrix:outputMatrix:]
+/Users/aegan/code/ML/YCML/YCML/YCSupervisedTrainer.m
+-[YCSupervisedTrainer train:inputMatrix:outputMatrix:]
+-[YCSupervisedTrainer train:input:output:]
++[YCMissingValue missingValue]
+-[YCMissingValue initWithCoder:]
+-[YCMissingValue encodeWithCoder:]
+-[YCMissingValue copyWithZone:]
+-[YCMissingValue forwardingTargetForSelector:]
+-[YCMissingValue description]
+l_OBJC_$_CLASS_METHODS_YCMissingValue
+OBJC_METH_VAR_TYPE_.9
+OBJC_METH_VAR_TYPE_.13
+OBJC_CLASS_NAME_.14
+l_OBJC_CLASS_PROTOCOLS_$_YCMissingValue
+l_OBJC_METACLASS_RO_$_YCMissingValue
+l_OBJC_$_INSTANCE_METHODS_YCMissingValue
+l_OBJC_CLASS_RO_$_YCMissingValue
+-[YCMissingValue description]
+/Users/aegan/code/ML/YCML/YCML/Data Frame/YCMissingValue.m
+-[YCMissingValue forwardingTargetForSelector:]
+-[YCMissingValue copyWithZone:]
+-[YCMissingValue encodeWithCoder:]
+-[YCMissingValue initWithCoder:]
++[YCMissingValue missingValue]
+-[YCTanhLayer activationFunction:]
+__34-[YCTanhLayer activationFunction:]_block_invoke
+-[YCTanhLayer activationFunctionGradient:]
+__42-[YCTanhLayer activationFunctionGradient:]_block_invoke
+__block_descriptor_tmp.1
+__block_literal_global.2
+l_OBJC_METACLASS_RO_$_YCTanhLayer
+l_OBJC_$_INSTANCE_METHODS_YCTanhLayer
+l_OBJC_CLASS_RO_$_YCTanhLayer
+/Users/aegan/code/ML/YCML/YCML/Layers/YCTanhLayer.m
+-[YCTanhLayer activationFunctionGradient:]
+-[YCTanhLayer activationFunction:]
+-[YCLinearKernel kernelValueForA:b:]
+l_OBJC_METACLASS_RO_$_YCLinearKernel
+l_OBJC_$_INSTANCE_METHODS_YCLinearKernel
+l_OBJC_CLASS_RO_$_YCLinearKernel
+-[YCLinearKernel kernelValueForA:b:]
+/Users/aegan/code/ML/YCML/YCML/Kernels/YCLinearKernel.m
+-[YCRProp initWithProblem:settings:]
+-[YCRProp iterate:]
+__19-[YCRProp iterate:]_block_invoke
+-[YCRProp bestParameters]
+-[YCRProp bestObjectives]
+-[YCRProp bestConstraints]
+OBJC_CLASSLIST_REFERENCES_$_.33
+_unnamed_cfstring_.43
+.str.44
+_unnamed_cfstring_.45
+_unnamed_cfstring_.51
+.str.56
+OBJC_CLASSLIST_REFERENCES_$_.71
+l_OBJC_METACLASS_RO_$_YCRProp
+l_OBJC_$_INSTANCE_METHODS_YCRProp
+l_OBJC_CLASS_RO_$_YCRProp
+-[YCRProp bestConstraints]
+/Users/aegan/code/ML/YCML/YCML/Optimization/RProp/YCRProp.m
+-[YCRProp bestObjectives]
+-[YCRProp bestParameters]
+-[YCRProp iterate:]
+-[YCRProp initWithProblem:settings:]
+-[YCReLULayer activationFunction:]
+__34-[YCReLULayer activationFunction:]_block_invoke
+-[YCReLULayer activationFunctionGradient:]
+__42-[YCReLULayer activationFunctionGradient:]_block_invoke
+l_OBJC_METACLASS_RO_$_YCReLULayer
+l_OBJC_$_INSTANCE_METHODS_YCReLULayer
+l_OBJC_CLASS_RO_$_YCReLULayer
+/Users/aegan/code/ML/YCML/YCML/Layers/YCReLULayer.m
+-[YCReLULayer activationFunctionGradient:]
+-[YCReLULayer activationFunction:]
+-[YCGradientDescent initWithProblem:settings:]
+-[YCGradientDescent iterate:]
+-[YCGradientDescent bestParameters]
+-[YCGradientDescent bestObjectives]
+OBJC_CLASSLIST_REFERENCES_$_.21
+OBJC_CLASSLIST_REFERENCES_$_.52
+l_OBJC_METACLASS_RO_$_YCGradientDescent
+l_OBJC_$_INSTANCE_METHODS_YCGradientDescent
+l_OBJC_CLASS_RO_$_YCGradientDescent
+-[YCGradientDescent bestObjectives]
+/Users/aegan/code/ML/YCML/YCML/Optimization/Gradient Descent/YCGradientDescent.m
+-[YCGradientDescent bestParameters]
+-[YCGradientDescent iterate:]
+-[YCGradientDescent initWithProblem:settings:]
+-[YCSigmoidLayer activationFunction:]
+__37-[YCSigmoidLayer activationFunction:]_block_invoke
+-[YCSigmoidLayer activationFunctionGradient:]
+__45-[YCSigmoidLayer activationFunctionGradient:]_block_invoke
+l_OBJC_METACLASS_RO_$_YCSigmoidLayer
+l_OBJC_$_INSTANCE_METHODS_YCSigmoidLayer
+l_OBJC_CLASS_RO_$_YCSigmoidLayer
+/Users/aegan/code/ML/YCML/YCML/Layers/YCSigmoidLayer.m
+-[YCSigmoidLayer activationFunctionGradient:]
+-[YCSigmoidLayer activationFunction:]
+-[YCCompoundProblem init]
+-[YCCompoundProblem objectiveCount]
+-[YCCompoundProblem parameterCount]
+-[YCCompoundProblem constraintCount]
+-[YCCompoundProblem parameterBounds]
+-[YCCompoundProblem initialValuesRangeHint]
+-[YCCompoundProblem evaluate:parameters:]
+-[YCCompoundProblem parameterLabels]
+-[YCCompoundProblem objectiveLabels]
+-[YCCompoundProblem constraintLabels]
+-[YCCompoundProblem modes]
+-[YCCompoundProblem supportedEvaluationMode]
+-[YCCompoundProblem dictionary:toArrayWithKeyOrder:]
+-[YCCompoundProblem problems]
+-[YCCompoundProblem setProblems:]
+-[YCCompoundProblem .cxx_destruct]
+OBJC_CLASSLIST_REFERENCES_$_.23
+OBJC_IVAR_$_YCCompoundProblem._problems
+OBJC_CLASS_NAME_.63
+OBJC_PROP_NAME_ATTR_.74
+l_OBJC_CLASS_PROTOCOLS_$_YCCompoundProblem
+l_OBJC_METACLASS_RO_$_YCCompoundProblem
+l_OBJC_$_INSTANCE_METHODS_YCCompoundProblem
+l_OBJC_$_INSTANCE_VARIABLES_YCCompoundProblem
+OBJC_PROP_NAME_ATTR_.84
+l_OBJC_$_PROP_LIST_YCCompoundProblem
+l_OBJC_CLASS_RO_$_YCCompoundProblem
+-[YCCompoundProblem .cxx_destruct]
+/Users/aegan/code/ML/YCML/YCML/Optimization/YCCompoundProblem.m
+-[YCCompoundProblem setProblems:]
+/Users/aegan/code/ML/YCML/YCML/Optimization/YCCompoundProblem.h
+-[YCCompoundProblem problems]
+-[YCCompoundProblem dictionary:toArrayWithKeyOrder:]
+-[YCCompoundProblem supportedEvaluationMode]
+-[YCCompoundProblem modes]
+-[YCCompoundProblem constraintLabels]
+-[YCCompoundProblem objectiveLabels]
+-[YCCompoundProblem parameterLabels]
+-[YCCompoundProblem evaluate:parameters:]
+-[YCCompoundProblem initialValuesRangeHint]
+-[YCCompoundProblem parameterBounds]
+-[YCCompoundProblem constraintCount]
+-[YCCompoundProblem parameterCount]
+-[YCCompoundProblem objectiveCount]
+-[YCCompoundProblem init]
+-[YCOptimizer init]
+-[YCOptimizer initWithProblem:]
+-[YCOptimizer initWithProblem:settings:]
+-[YCOptimizer run]
+-[YCOptimizer iterate:]
+-[YCOptimizer reset]
+-[YCOptimizer stop]
+-[YCOptimizer postIterationNotification]
+-[YCOptimizer bestParameters]
+-[YCOptimizer bestObjectives]
+-[YCOptimizer bestConstraints]
+-[YCOptimizer copyWithZone:]
+-[YCOptimizer initWithCoder:]
+-[YCOptimizer encodeWithCoder:]
+-[YCOptimizer shouldStop]
+-[YCOptimizer setShouldStop:]
+-[YCOptimizer problem]
+-[YCOptimizer setProblem:]
+-[YCOptimizer state]
+-[YCOptimizer setState:]
+-[YCOptimizer settings]
+-[YCOptimizer setSettings:]
+-[YCOptimizer statistics]
+-[YCOptimizer setStatistics:]
+-[YCOptimizer .cxx_destruct]
+.str.32
+_unnamed_cfstring_.33
+.str.40
+_unnamed_cfstring_.41
+OBJC_CLASSLIST_REFERENCES_$_.48
+.str.63
+_unnamed_cfstring_.64
+.str.67
+_unnamed_cfstring_.68
+OBJC_IVAR_$_YCOptimizer._shouldStop
+OBJC_IVAR_$_YCOptimizer._problem
+OBJC_IVAR_$_YCOptimizer._state
+OBJC_IVAR_$_YCOptimizer._settings
+OBJC_IVAR_$_YCOptimizer._statistics
+OBJC_CLASS_NAME_.74
+OBJC_CLASS_NAME_.81
+l_OBJC_CLASS_PROTOCOLS_$_YCOptimizer
+l_OBJC_METACLASS_RO_$_YCOptimizer
+OBJC_CLASS_NAME_.82
+OBJC_METH_VAR_TYPE_.94
+OBJC_METH_VAR_TYPE_.95
+l_OBJC_$_INSTANCE_METHODS_YCOptimizer
+l_OBJC_$_INSTANCE_VARIABLES_YCOptimizer
+OBJC_PROP_NAME_ATTR_.106
+OBJC_PROP_NAME_ATTR_.107
+OBJC_PROP_NAME_ATTR_.108
+OBJC_PROP_NAME_ATTR_.111
+OBJC_PROP_NAME_ATTR_.112
+OBJC_PROP_NAME_ATTR_.113
+OBJC_PROP_NAME_ATTR_.114
+OBJC_PROP_NAME_ATTR_.115
+OBJC_PROP_NAME_ATTR_.116
+l_OBJC_$_PROP_LIST_YCOptimizer
+l_OBJC_CLASS_RO_$_YCOptimizer
+-[YCOptimizer .cxx_destruct]
+/Users/aegan/code/ML/YCML/YCML/Optimization/YCOptimizer.m
+-[YCOptimizer setStatistics:]
+/Users/aegan/code/ML/YCML/YCML/Optimization/YCOptimizer.h
+-[YCOptimizer statistics]
+-[YCOptimizer setSettings:]
+-[YCOptimizer settings]
+-[YCOptimizer setState:]
+-[YCOptimizer state]
+-[YCOptimizer setProblem:]
+-[YCOptimizer problem]
+-[YCOptimizer setShouldStop:]
+-[YCOptimizer shouldStop]
+-[YCOptimizer encodeWithCoder:]
+-[YCOptimizer initWithCoder:]
+-[YCOptimizer copyWithZone:]
+-[YCOptimizer bestConstraints]
+-[YCOptimizer bestObjectives]
+-[YCOptimizer bestParameters]
+-[YCOptimizer postIterationNotification]
+-[YCOptimizer stop]
+-[YCOptimizer reset]
+-[YCOptimizer iterate:]
+-[YCOptimizer run]
+-[YCOptimizer initWithProblem:settings:]
+-[YCOptimizer initWithProblem:]
+-[YCOptimizer init]
+-[YCBackPropProblem initWithInputMatrix:outputMatrix:model:]
+-[YCBackPropProblem initialValuesRangeHint]
+-[YCBackPropProblem parameterBounds]
+-[YCBackPropProblem evaluate:parameters:]
+__41-[YCBackPropProblem evaluate:parameters:]_block_invoke
+__41-[YCBackPropProblem evaluate:parameters:]_block_invoke.29
+-[YCBackPropProblem derivatives:parameters:]
+__44-[YCBackPropProblem derivatives:parameters:]_block_invoke
+__copy_helper_block_.46
+__destroy_helper_block_.47
+-[YCBackPropProblem modelWeightsWithParameters:]
+-[YCBackPropProblem modelBiasesWithParameters:]
+-[YCBackPropProblem weightParameterCount]
+-[YCBackPropProblem biasParameterCount]
+-[YCBackPropProblem storeWeights:biases:toVector:]
+-[YCBackPropProblem parameterCount]
+-[YCBackPropProblem objectiveCount]
+-[YCBackPropProblem constraintCount]
+-[YCBackPropProblem modes]
+-[YCBackPropProblem supportedEvaluationMode]
+-[YCBackPropProblem trainedModel]
+-[YCBackPropProblem setTrainedModel:]
+-[YCBackPropProblem sampleCount]
+-[YCBackPropProblem setSampleCount:]
+-[YCBackPropProblem batchSize]
+-[YCBackPropProblem setBatchSize:]
+-[YCBackPropProblem .cxx_destruct]
+OBJC_IVAR_$_YCBackPropProblem._trainedModel
+__block_descriptor_tmp.31
+__block_descriptor_tmp.48
+OBJC_CLASSLIST_REFERENCES_$_.57
+.str.65
+OBJC_IVAR_$_YCBackPropProblem._sampleCount
+OBJC_IVAR_$_YCBackPropProblem._batchSize
+OBJC_METH_VAR_TYPE_.119
+OBJC_CLASS_NAME_.131
+OBJC_PROP_NAME_ATTR_.132
+OBJC_PROP_NAME_ATTR_.133
+OBJC_PROP_NAME_ATTR_.134
+OBJC_PROP_NAME_ATTR_.136
+OBJC_PROP_NAME_ATTR_.137
+OBJC_PROP_NAME_ATTR_.138
+OBJC_PROP_NAME_ATTR_.139
+OBJC_PROP_NAME_ATTR_.140
+OBJC_PROP_NAME_ATTR_.141
+OBJC_PROP_NAME_ATTR_.142
+OBJC_PROP_NAME_ATTR_.143
+l_OBJC_CLASS_PROTOCOLS_$_YCBackPropProblem
+l_OBJC_METACLASS_RO_$_YCBackPropProblem
+OBJC_METH_VAR_TYPE_.154
+l_OBJC_$_INSTANCE_METHODS_YCBackPropProblem
+OBJC_METH_VAR_TYPE_.162
+OBJC_METH_VAR_NAME_.163
+l_OBJC_$_INSTANCE_VARIABLES_YCBackPropProblem
+OBJC_PROP_NAME_ATTR_.169
+OBJC_PROP_NAME_ATTR_.170
+OBJC_PROP_NAME_ATTR_.171
+l_OBJC_$_PROP_LIST_YCBackPropProblem
+l_OBJC_CLASS_RO_$_YCBackPropProblem
+-[YCBackPropProblem .cxx_destruct]
+/Users/aegan/code/ML/YCML/YCML/FFN/YCBackPropProblem.m
+-[YCBackPropProblem setBatchSize:]
+/Users/aegan/code/ML/YCML/YCML/FFN/YCBackPropProblem.h
+-[YCBackPropProblem batchSize]
+-[YCBackPropProblem setSampleCount:]
+-[YCBackPropProblem sampleCount]
+-[YCBackPropProblem setTrainedModel:]
+-[YCBackPropProblem trainedModel]
+-[YCBackPropProblem supportedEvaluationMode]
+-[YCBackPropProblem modes]
+-[YCBackPropProblem constraintCount]
+-[YCBackPropProblem objectiveCount]
+-[YCBackPropProblem parameterCount]
+-[YCBackPropProblem storeWeights:biases:toVector:]
+-[YCBackPropProblem biasParameterCount]
+-[YCBackPropProblem weightParameterCount]
+-[YCBackPropProblem modelBiasesWithParameters:]
+-[YCBackPropProblem modelWeightsWithParameters:]
+-[YCBackPropProblem derivatives:parameters:]
+-[YCBackPropProblem evaluate:parameters:]
+-[YCBackPropProblem parameterBounds]
+-[YCBackPropProblem initialValuesRangeHint]
+-[YCBackPropProblem initWithInputMatrix:outputMatrix:model:]
++[YCDataframe(Matrix) dataframeWithMatrix:conversionArray:]
+-[YCDataframe(Matrix) getMatrixUsingConversionArray:]
+-[YCDataframe(Matrix) conversionArray]
+-[YCDataframe(Matrix) setDataWithMatrix:conversionArray:]
+-[YCDataframe(Matrix) indexOfLargestValueIn:]
+-[YCDataframe(Matrix) generateID]
+-[YCDataframe(Matrix) encode:]
+__30-[YCDataframe(Matrix) encode:]_block_invoke
+.str.92
+OBJC_METH_VAR_TYPE_.98
+l_OBJC_$_CATEGORY_INSTANCE_METHODS_YCDataframe_$_Matrix
+l_OBJC_$_CATEGORY_CLASS_METHODS_YCDataframe_$_Matrix
+l_OBJC_$_CATEGORY_YCDataframe_$_Matrix
+/Users/aegan/code/ML/YCML/YCML/Data Frame/YCDataframe+Matrix.m
+-[YCDataframe(Matrix) encode:]
+-[YCDataframe(Matrix) generateID]
+-[YCDataframe(Matrix) indexOfLargestValueIn:]
+-[YCDataframe(Matrix) setDataWithMatrix:conversionArray:]
+-[YCDataframe(Matrix) conversionArray]
+-[YCDataframe(Matrix) getMatrixUsingConversionArray:]
++[YCDataframe(Matrix) dataframeWithMatrix:conversionArray:]
+/Users/aegan/code/ML/YCML/build/YCML.build/Release-iphoneos/YCML.build/DerivedSources/YCML_vers.c

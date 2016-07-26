@@ -1,0 +1,6 @@
+framework module YCML {
+  umbrella header "YCML.h"
+
+  export *
+  module * { export * }
+}

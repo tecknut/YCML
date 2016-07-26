@@ -1,0 +1,1038 @@
+BCSymbolMap Version: 1.0
+-[NSArray(Matrix) matrixSum]
+-[NSArray(Matrix) matrixMean]
+-[NSArray(Matrix) matrixProduct]
+-[NSArray(Matrix) matrixMax]
+-[NSArray(Matrix) matrixMin]
+OBJC_METH_VAR_NAME_
+OBJC_SELECTOR_REFERENCES_
+OBJC_METH_VAR_NAME_.1
+OBJC_SELECTOR_REFERENCES_.2
+OBJC_METH_VAR_NAME_.3
+OBJC_SELECTOR_REFERENCES_.4
+OBJC_METH_VAR_NAME_.5
+OBJC_SELECTOR_REFERENCES_.6
+OBJC_METH_VAR_NAME_.7
+OBJC_SELECTOR_REFERENCES_.8
+OBJC_METH_VAR_NAME_.9
+OBJC_SELECTOR_REFERENCES_.10
+OBJC_METH_VAR_NAME_.11
+OBJC_SELECTOR_REFERENCES_.12
+OBJC_METH_VAR_NAME_.13
+OBJC_SELECTOR_REFERENCES_.14
+OBJC_METH_VAR_NAME_.15
+OBJC_SELECTOR_REFERENCES_.16
+OBJC_CLASS_NAME_
+OBJC_METH_VAR_TYPE_
+OBJC_METH_VAR_NAME_.17
+OBJC_METH_VAR_NAME_.18
+OBJC_METH_VAR_NAME_.19
+OBJC_METH_VAR_NAME_.20
+l_OBJC_$_CATEGORY_INSTANCE_METHODS_NSArray_$_Matrix
+OBJC_PROP_NAME_ATTR_
+OBJC_PROP_NAME_ATTR_.21
+OBJC_PROP_NAME_ATTR_.22
+OBJC_PROP_NAME_ATTR_.23
+OBJC_PROP_NAME_ATTR_.24
+OBJC_PROP_NAME_ATTR_.25
+l_OBJC_$_PROP_LIST_NSArray_$_Matrix
+l_OBJC_$_CATEGORY_NSArray_$_Matrix
+OBJC_LABEL_CATEGORY_$
+Apple LLVM version 7.3.0 (clang-703.0.29)
+-[NSArray(Matrix) matrixMin]
+/Users/aegan/code/ML/YCML/YCMatrix/NSArray+Matrix.m
+/Users/aegan/code/ML/YCML
+-[NSArray(Matrix) matrixMax]
+-[NSArray(Matrix) matrixProduct]
+-[NSArray(Matrix) matrixMean]
+-[NSArray(Matrix) matrixSum]
++[Matrix(Advanced) uniformRandomLowerBound:upperBound:]
++[Matrix(Advanced) uniformRandomRows:columns:domain:]
++[Matrix(Advanced) uniformRandomLowerBound:upperBound:count:]
++[Matrix(Advanced) normalRandomMean:variance:]
++[Matrix(Advanced) normalRandomRows:columns:mean:variance:]
++[Matrix(Advanced) normalRandomMean:variance:count:]
++[Matrix(Advanced) sobolSequenceLowerBound:upperBound:count:]
+sobol_gen
++[Matrix(Advanced) haltonSequenceWithLowerBound:upperBound:count:]
+-[Matrix(Advanced) pseudoInverse]
+-[Matrix(Advanced) SVD]
+SVDColumnMajor
+-[Matrix(Advanced) solve:]
+-[Matrix(Advanced) cholesky]
+-[Matrix(Advanced) matrixByCholesky]
+-[Matrix(Advanced) eigenvalues]
+MEVV
+-[Matrix(Advanced) eigenvaluesAndEigenvectors]
+-[Matrix(Advanced) determinant]
+-[Matrix(Advanced) sumsOfRows]
+-[Matrix(Advanced) sumsOfColumns]
+-[Matrix(Advanced) meansOfRows]
+-[Matrix(Advanced) meansOfColumns]
+-[Matrix(Advanced) variancesOfRows]
+-[Matrix(Advanced) variancesOfColumns]
+-[Matrix(Advanced) sampleVariancesOfRows]
+-[Matrix(Advanced) sampleVariancesOfColumns]
+-[Matrix(Advanced) minimumsOfRows]
+-[Matrix(Advanced) maximumsOfRows]
+-[Matrix(Advanced) minimumsOfColumns]
+-[Matrix(Advanced) maximumsOfColumns]
+-[Matrix(Advanced) matrixByApplyingFunction:]
+-[Matrix(Advanced) applyFunction:]
+-[Matrix(Advanced) euclideanDistanceTo:]
+-[Matrix(Advanced) quadranceTo:]
+-[Matrix(Advanced) bernoulli]
+boxMuller
+OBJC_CLASSLIST_REFERENCES_$_
+OBJC_CLASSLIST_REFERENCES_$_.13
+OBJC_METH_VAR_NAME_.14
+OBJC_SELECTOR_REFERENCES_.15
+OBJC_METH_VAR_NAME_.16
+OBJC_SELECTOR_REFERENCES_.17
+OBJC_SELECTOR_REFERENCES_.19
+OBJC_SELECTOR_REFERENCES_.21
+OBJC_METH_VAR_NAME_.22
+OBJC_SELECTOR_REFERENCES_.23
+OBJC_METH_VAR_NAME_.24
+OBJC_SELECTOR_REFERENCES_.25
+.str
+_unnamed_cfstring_
+.str.26
+_unnamed_cfstring_.27
+.str.28
+_unnamed_cfstring_.29
+OBJC_CLASSLIST_REFERENCES_$_.30
+OBJC_METH_VAR_NAME_.31
+OBJC_SELECTOR_REFERENCES_.32
+OBJC_METH_VAR_NAME_.33
+OBJC_SELECTOR_REFERENCES_.34
+OBJC_CLASSLIST_REFERENCES_$_.35
+.str.36
+_unnamed_cfstring_.37
+.str.38
+_unnamed_cfstring_.39
+OBJC_METH_VAR_NAME_.40
+OBJC_SELECTOR_REFERENCES_.41
+OBJC_METH_VAR_NAME_.42
+OBJC_SELECTOR_REFERENCES_.43
+OBJC_METH_VAR_NAME_.44
+OBJC_SELECTOR_REFERENCES_.45
+.str.46
+_unnamed_cfstring_.47
+.str.48
+_unnamed_cfstring_.49
+.str.50
+_unnamed_cfstring_.51
+OBJC_METH_VAR_NAME_.52
+OBJC_SELECTOR_REFERENCES_.53
+OBJC_METH_VAR_NAME_.54
+OBJC_SELECTOR_REFERENCES_.55
+OBJC_METH_VAR_NAME_.56
+OBJC_SELECTOR_REFERENCES_.57
+OBJC_METH_VAR_NAME_.58
+OBJC_SELECTOR_REFERENCES_.59
+OBJC_METH_VAR_NAME_.60
+OBJC_SELECTOR_REFERENCES_.61
+OBJC_METH_VAR_NAME_.62
+OBJC_SELECTOR_REFERENCES_.63
+OBJC_METH_VAR_NAME_.64
+OBJC_SELECTOR_REFERENCES_.65
+OBJC_METH_VAR_NAME_.66
+OBJC_SELECTOR_REFERENCES_.67
+OBJC_METH_VAR_NAME_.68
+OBJC_SELECTOR_REFERENCES_.69
+OBJC_METH_VAR_NAME_.70
+OBJC_SELECTOR_REFERENCES_.71
+OBJC_METH_VAR_NAME_.72
+OBJC_SELECTOR_REFERENCES_.73
+OBJC_METH_VAR_NAME_.74
+OBJC_METH_VAR_NAME_.75
+OBJC_METH_VAR_NAME_.76
+OBJC_METH_VAR_TYPE_.77
+OBJC_METH_VAR_TYPE_.78
+OBJC_METH_VAR_NAME_.79
+OBJC_METH_VAR_NAME_.80
+OBJC_METH_VAR_NAME_.81
+OBJC_METH_VAR_NAME_.82
+OBJC_METH_VAR_TYPE_.83
+OBJC_METH_VAR_NAME_.84
+OBJC_METH_VAR_NAME_.85
+OBJC_METH_VAR_NAME_.86
+OBJC_METH_VAR_NAME_.87
+OBJC_METH_VAR_NAME_.88
+OBJC_METH_VAR_NAME_.89
+OBJC_METH_VAR_NAME_.90
+OBJC_METH_VAR_NAME_.91
+OBJC_METH_VAR_NAME_.92
+OBJC_METH_VAR_TYPE_.93
+OBJC_METH_VAR_TYPE_.94
+OBJC_METH_VAR_NAME_.95
+OBJC_METH_VAR_TYPE_.96
+OBJC_METH_VAR_NAME_.97
+l_OBJC_$_CATEGORY_INSTANCE_METHODS_Matrix_$_Advanced
+OBJC_METH_VAR_NAME_.98
+OBJC_METH_VAR_TYPE_.99
+OBJC_METH_VAR_NAME_.100
+OBJC_METH_VAR_TYPE_.101
+OBJC_METH_VAR_NAME_.102
+OBJC_METH_VAR_TYPE_.103
+OBJC_METH_VAR_NAME_.104
+OBJC_METH_VAR_NAME_.105
+OBJC_METH_VAR_TYPE_.106
+OBJC_METH_VAR_NAME_.107
+OBJC_METH_VAR_NAME_.108
+OBJC_METH_VAR_NAME_.109
+l_OBJC_$_CATEGORY_CLASS_METHODS_Matrix_$_Advanced
+l_OBJC_$_CATEGORY_Matrix_$_Advanced
+boxMuller.x
+boxMuller.y
+boxMuller.t
+.str.110
+_unnamed_cfstring_.111
+.str.112
+_unnamed_cfstring_.113
+sobol_a
+sobol_minit
+sobol_destroy
+/Users/aegan/code/ML/YCML/YCMatrix/Matrix+Advanced.m
+sobol_init
+rightzero32
+pInv
+-[Matrix(Advanced) bernoulli]
+-[Matrix(Advanced) quadranceTo:]
+-[Matrix(Advanced) euclideanDistanceTo:]
+-[Matrix(Advanced) applyFunction:]
+-[Matrix(Advanced) matrixByApplyingFunction:]
+-[Matrix(Advanced) maximumsOfColumns]
+-[Matrix(Advanced) minimumsOfColumns]
+-[Matrix(Advanced) maximumsOfRows]
+-[Matrix(Advanced) minimumsOfRows]
+-[Matrix(Advanced) sampleVariancesOfColumns]
+-[Matrix(Advanced) sampleVariancesOfRows]
+-[Matrix(Advanced) variancesOfColumns]
+-[Matrix(Advanced) variancesOfRows]
+-[Matrix(Advanced) meansOfColumns]
+-[Matrix(Advanced) meansOfRows]
+-[Matrix(Advanced) sumsOfColumns]
+-[Matrix(Advanced) sumsOfRows]
+-[Matrix(Advanced) determinant]
+-[Matrix(Advanced) eigenvaluesAndEigenvectors]
+-[Matrix(Advanced) eigenvalues]
+-[Matrix(Advanced) matrixByCholesky]
+-[Matrix(Advanced) cholesky]
+-[Matrix(Advanced) solve:]
+-[Matrix(Advanced) SVD]
+-[Matrix(Advanced) pseudoInverse]
++[Matrix(Advanced) haltonSequenceWithLowerBound:upperBound:count:]
++[Matrix(Advanced) sobolSequenceLowerBound:upperBound:count:]
++[Matrix(Advanced) normalRandomMean:variance:count:]
++[Matrix(Advanced) normalRandomRows:columns:mean:variance:]
++[Matrix(Advanced) normalRandomMean:variance:]
++[Matrix(Advanced) uniformRandomLowerBound:upperBound:count:]
++[Matrix(Advanced) uniformRandomRows:columns:domain:]
++[Matrix(Advanced) uniformRandomLowerBound:upperBound:]
+-[Matrix(Map) matrixByRowWiseMapUsing:]
+__39-[Matrix(Map) matrixByRowWiseMapUsing:]_block_invoke
+__copy_helper_block_
+__destroy_helper_block_
+-[Matrix(Map) rowWiseMapToDomain:basis:]
+-[Matrix(Map) rowWiseInverseMapFromDomain:basis:]
+-[Matrix(Map) matrixByColumnWiseMapUsing:]
+-[Matrix(Map) columnWiseMapToDomain:basis:]
+-[Matrix(Map) columnWiseInverseMapFromDomain:basis:]
+__block_descriptor_tmp
+OBJC_METH_VAR_TYPE_.15
+l_OBJC_$_CATEGORY_INSTANCE_METHODS_Matrix_$_Map
+l_OBJC_$_CATEGORY_Matrix_$_Map
+-[Matrix(Map) columnWiseInverseMapFromDomain:basis:]
+/Users/aegan/code/ML/YCML/YCMatrix/Matrix+Map.m
+-[Matrix(Map) columnWiseMapToDomain:basis:]
+-[Matrix(Map) matrixByColumnWiseMapUsing:]
+-[Matrix(Map) rowWiseInverseMapFromDomain:basis:]
+-[Matrix(Map) rowWiseMapToDomain:basis:]
+-[Matrix(Map) matrixByRowWiseMapUsing:]
++[HaltonInterface sampleWithDimension:count:]
+_ZN14Halton_sampler10init_faureEv
+_ZNK14Halton_sampler6sampleEjj
+_ZN14Halton_sampler11init_tablesERKNSt3__16vectorINS1_ItNS0_9allocatorItEEEENS2_IS4_EEEE
+l_OBJC_$_CLASS_METHODS_HaltonInterface
+l_OBJC_METACLASS_RO_$_HaltonInterface
+l_OBJC_CLASS_RO_$_HaltonInterface
+OBJC_LABEL_CLASS_$
+halton1619
+/Users/aegan/code/ML/YCML/YCMatrix/halton_sampler.h
+halton1613
+halton1609
+halton1607
+halton1601
+halton1597
+halton1583
+halton1579
+halton1571
+halton1567
+halton1559
+halton1553
+halton1549
+halton1543
+halton1531
+halton1523
+halton1511
+halton1499
+halton1493
+halton1489
+halton1487
+halton1483
+halton1481
+halton1471
+halton1459
+halton1453
+halton1451
+halton1447
+halton1439
+halton1433
+halton1429
+halton1427
+halton1423
+halton1409
+halton1399
+halton1381
+halton1373
+halton1367
+halton1361
+halton1327
+halton1321
+halton1319
+halton1307
+halton1303
+halton1301
+halton1297
+halton1291
+halton1289
+halton1283
+halton1279
+halton1277
+halton1259
+halton1249
+halton1237
+halton1231
+halton1229
+halton1223
+halton1217
+halton1213
+halton1201
+halton1193
+halton1187
+halton1181
+halton1171
+halton1163
+halton1153
+halton1151
+halton1129
+halton1123
+halton1117
+halton1109
+halton1103
+halton1097
+halton1093
+halton1091
+halton1087
+halton1069
+halton1063
+halton1061
+halton1051
+halton1049
+halton1039
+halton1033
+halton1031
+halton1021
+halton1019
+halton1013
+halton1009
+halton997
+halton991
+halton983
+halton977
+halton971
+halton967
+halton953
+halton947
+halton941
+halton937
+halton929
+halton919
+halton911
+halton907
+halton887
+halton883
+halton881
+halton877
+halton863
+halton859
+halton857
+halton853
+halton839
+halton829
+halton827
+halton823
+halton821
+halton811
+halton809
+halton797
+halton787
+halton773
+halton769
+halton761
+halton757
+halton751
+halton743
+halton739
+halton733
+halton727
+halton719
+halton709
+halton701
+halton691
+halton683
+halton677
+halton673
+halton661
+halton659
+halton653
+halton647
+halton643
+halton641
+halton631
+halton619
+halton617
+halton613
+halton607
+halton601
+halton599
+halton593
+halton587
+halton577
+halton571
+halton569
+halton563
+halton557
+halton547
+halton541
+halton523
+halton521
+halton509
+halton503
+halton499
+halton491
+halton487
+halton479
+halton467
+halton463
+halton461
+halton457
+halton449
+halton443
+halton439
+halton433
+halton431
+halton421
+halton419
+halton409
+halton401
+halton397
+halton389
+halton383
+halton379
+halton373
+halton367
+halton359
+halton353
+halton349
+halton347
+halton337
+halton331
+halton317
+halton313
+halton311
+halton307
+halton293
+halton283
+halton281
+halton277
+halton271
+halton269
+halton263
+halton257
+halton251
+halton241
+halton239
+halton233
+halton229
+halton227
+halton223
+halton211
+halton199
+halton197
+halton193
+halton191
+halton181
+halton179
+halton173
+halton167
+halton163
+halton157
+halton151
+halton149
+halton139
+halton137
+halton131
+halton127
+halton113
+halton109
+halton107
+halton103
+halton101
+halton97
+halton89
+halton83
+halton79
+halton73
+halton71
+halton67
+halton61
+halton59
+halton53
+halton47
+halton43
+halton41
+halton37
+halton31
+halton29
+halton23
+halton19
+halton17
+halton13
+halton11
+halton7
+halton5
+halton3
+halton2
+sample
+~vector
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/vector
+operator[]
+invert
+init_tables
+__annotate_shrink
+__destruct_at_end
+first
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/memory
+__end_cap
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/__split_buffer
+capacity
+clear
+~__split_buffer
+__invalidate_all_iterators
+__annotate_new
+move<unsigned short *&>
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/type_traits
+swap<unsigned short *>
+__construct_backward<unsigned short>
+data
+__annotate_contiguous_container
+__annotate_delete
+__swap_out_circular_buffer
+__construct_at_end
+second
+__alloc
+allocate
+__libcpp_compressed_pair_imp
+forward<std::__1::allocator<unsigned short> &>
+__compressed_pair
+__split_buffer
+max<unsigned long, std::__1::__less<unsigned long, unsigned long> >
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/algorithm
+max<unsigned long>
+max_size
+__max_size
+__recommend
+__done
+construct<unsigned short>
+__construct<unsigned short>
+__RAII_IncreaseAnnotator
+__append
+size
+resize
+deallocate
+__deallocate
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/new
+__to_raw_pointer<unsigned short>
+destroy
+__destroy<unsigned short>
+destroy<unsigned short>
+~__vector_base
+__destroy<std::__1::vector<unsigned short, std::__1::allocator<unsigned short> > >
+destroy<std::__1::vector<unsigned short, std::__1::allocator<unsigned short> > >
+allocator
+forward<unsigned short *>
+__vector_base
+vector
+construct<std::__1::vector<unsigned short, std::__1::allocator<unsigned short> >>
+__construct<std::__1::vector<unsigned short, std::__1::allocator<unsigned short> >>
+__to_raw_pointer<std::__1::vector<unsigned short, std::__1::allocator<unsigned short> > >
+__allocate
+max
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/limits
+operator()
+min<unsigned long, std::__1::__less<unsigned long, unsigned long> >
+min<unsigned long>
+forward<std::__1::vector<unsigned short, std::__1::allocator<unsigned short> > *>
+__vector_base_common
+init_faure
++[HaltonInterface sampleWithDimension:count:]
+/Users/aegan/code/ML/YCML/YCMatrix/HaltonInterface.mm
++[Matrix matrixOfRows:columns:]
++[Matrix matrixLike:]
++[Matrix onesLike:]
++[Matrix dirtyMatrixOfRows:columns:]
++[Matrix matrixOfRows:columns:value:]
++[Matrix matrixOfRows:columns:valueInDiagonal:value:]
++[Matrix matrixOfRows:columns:valuesInDiagonal:value:]
++[Matrix matrixFromArray:rows:columns:]
++[Matrix matrixFromArray:rows:columns:mode:]
++[Matrix matrixFromNSArray:rows:columns:]
++[Matrix matrixFromMatrix:]
++[Matrix identityOfRows:columns:]
+-[Matrix valueAtRow:column:]
+-[Matrix i:j:]
+-[Matrix setValue:row:column:]
+-[Matrix i:j:set:]
+-[Matrix i:j:increment:]
+-[Matrix incrementAll:]
+-[Matrix checkBoundsForRow:column:]
+-[Matrix checkSquare]
+-[Matrix matrixByAdding:]
+-[Matrix matrixBySubtracting:]
+-[Matrix matrixByMultiplyingWithRight:]
+-[Matrix matrixByMultiplyingWithRight:AndTransposing:]
+-[Matrix matrixByMultiplyingWithRight:AndAdding:]
+-[Matrix matrixByMultiplyingWithRight:AndFactor:]
+-[Matrix matrixByTransposingAndMultiplyingWithRight:]
+-[Matrix matrixByTransposingAndMultiplyingWithLeft:]
+-[Matrix matrixByTransposing:TransposingRight:MultiplyWithRight:Factor:Adding:]
+-[Matrix matrixByMultiplyingWithScalar:]
+-[Matrix matrixByMultiplyingWithScalar:AndAdding:]
+-[Matrix matrixByNegating]
+-[Matrix matrixBySquaring]
+-[Matrix matrixByTransposing]
+-[Matrix matrixByElementWiseMultiplyWith:]
+-[Matrix matrixByElementWisDivideBy:]
+-[Matrix add:]
+-[Matrix subtract:]
+-[Matrix multiplyWithScalar:]
+-[Matrix negate]
+-[Matrix square]
+-[Matrix elementWiseMultiply:]
+-[Matrix elementWiseDivide:]
+-[Matrix trace]
+-[Matrix dotWith:]
+-[Matrix matrixByUnitizing]
+-[Matrix array]
+-[Matrix arrayCopy]
+-[Matrix numberArray]
+-[Matrix diagonal]
+-[Matrix rows]
+-[Matrix columns]
+-[Matrix count]
+-[Matrix sum]
+-[Matrix product]
+-[Matrix min]
+-[Matrix max]
+-[Matrix isSquareMatrix]
+-[Matrix isEqual:]
+-[Matrix isEqualToMatrix:tolerance:]
+-[Matrix description]
+-[Matrix dealloc]
+-[Matrix encodeWithCoder:]
+-[Matrix initWithCoder:]
+-[Matrix copyWithZone:]
+OBJC_IVAR_$_Matrix.freeData
+.str.14
+_unnamed_cfstring_.15
+.str.30
+_unnamed_cfstring_.31
+.str.32
+_unnamed_cfstring_.33
+OBJC_METH_VAR_NAME_.34
+OBJC_SELECTOR_REFERENCES_.35
+OBJC_METH_VAR_NAME_.36
+OBJC_SELECTOR_REFERENCES_.37
+OBJC_METH_VAR_NAME_.38
+OBJC_SELECTOR_REFERENCES_.39
+.str.42
+_unnamed_cfstring_.43
+.str.44
+_unnamed_cfstring_.45
+OBJC_METH_VAR_NAME_.46
+OBJC_SELECTOR_REFERENCES_.47
+OBJC_METH_VAR_NAME_.50
+OBJC_SELECTOR_REFERENCES_.51
+.str.58
+_unnamed_cfstring_.59
+OBJC_CLASSLIST_REFERENCES_$_.60
+OBJC_METH_VAR_NAME_.61
+OBJC_SELECTOR_REFERENCES_.62
+OBJC_CLASSLIST_REFERENCES_$_.63
+OBJC_SELECTOR_REFERENCES_.75
+.str.76
+_unnamed_cfstring_.77
+OBJC_CLASSLIST_REFERENCES_$_.78
+.str.79
+_unnamed_cfstring_.80
+OBJC_SELECTOR_REFERENCES_.82
+.str.83
+_unnamed_cfstring_.84
+OBJC_CLASSLIST_SUP_REFS_$_
+OBJC_SELECTOR_REFERENCES_.86
+.str.87
+_unnamed_cfstring_.88
+OBJC_SELECTOR_REFERENCES_.90
+.str.91
+_unnamed_cfstring_.92
+OBJC_METH_VAR_NAME_.93
+OBJC_SELECTOR_REFERENCES_.94
+.str.95
+_unnamed_cfstring_.96
+OBJC_SELECTOR_REFERENCES_.98
+OBJC_METH_VAR_NAME_.99
+OBJC_SELECTOR_REFERENCES_.100
+OBJC_METH_VAR_NAME_.101
+OBJC_SELECTOR_REFERENCES_.102
+.str.103
+_unnamed_cfstring_.104
+OBJC_SELECTOR_REFERENCES_.106
+OBJC_SELECTOR_REFERENCES_.108
+OBJC_METH_VAR_TYPE_.110
+OBJC_METH_VAR_NAME_.111
+OBJC_METH_VAR_TYPE_.112
+OBJC_METH_VAR_NAME_.113
+OBJC_METH_VAR_TYPE_.114
+OBJC_METH_VAR_TYPE_.115
+OBJC_METH_VAR_TYPE_.116
+OBJC_METH_VAR_TYPE_.117
+OBJC_METH_VAR_NAME_.118
+OBJC_METH_VAR_TYPE_.119
+OBJC_METH_VAR_NAME_.120
+l_OBJC_$_CLASS_METHODS_Matrix
+OBJC_METH_VAR_NAME_.121
+OBJC_METH_VAR_TYPE_.122
+OBJC_METH_VAR_TYPE_.123
+OBJC_METH_VAR_NAME_.124
+OBJC_METH_VAR_TYPE_.125
+OBJC_CLASS_NAME_.126
+l_OBJC_$_PROTOCOL_INSTANCE_METHODS_NSCoding
+l_OBJC_$_PROTOCOL_METHOD_TYPES_NSCoding
+l_OBJC_PROTOCOL_$_NSCoding
+l_OBJC_LABEL_PROTOCOL_$_NSCoding
+OBJC_METH_VAR_NAME_.127
+OBJC_METH_VAR_TYPE_.128
+OBJC_CLASS_NAME_.129
+l_OBJC_$_PROTOCOL_INSTANCE_METHODS_NSCopying
+l_OBJC_$_PROTOCOL_METHOD_TYPES_NSCopying
+l_OBJC_PROTOCOL_$_NSCopying
+l_OBJC_LABEL_PROTOCOL_$_NSCopying
+l_OBJC_CLASS_PROTOCOLS_$_Matrix
+l_OBJC_METACLASS_RO_$_Matrix
+OBJC_METH_VAR_TYPE_.130
+OBJC_METH_VAR_NAME_.131
+OBJC_METH_VAR_TYPE_.132
+OBJC_METH_VAR_NAME_.133
+OBJC_METH_VAR_TYPE_.134
+OBJC_METH_VAR_NAME_.135
+OBJC_METH_VAR_NAME_.136
+OBJC_METH_VAR_TYPE_.137
+OBJC_METH_VAR_TYPE_.138
+OBJC_METH_VAR_TYPE_.139
+OBJC_METH_VAR_NAME_.140
+OBJC_METH_VAR_NAME_.141
+OBJC_METH_VAR_NAME_.142
+OBJC_METH_VAR_NAME_.143
+OBJC_METH_VAR_TYPE_.144
+OBJC_METH_VAR_NAME_.145
+OBJC_METH_VAR_TYPE_.146
+OBJC_METH_VAR_NAME_.147
+OBJC_METH_VAR_TYPE_.148
+OBJC_METH_VAR_NAME_.149
+OBJC_METH_VAR_NAME_.150
+OBJC_METH_VAR_TYPE_.151
+OBJC_METH_VAR_NAME_.152
+OBJC_METH_VAR_TYPE_.153
+OBJC_METH_VAR_NAME_.154
+OBJC_METH_VAR_TYPE_.155
+OBJC_METH_VAR_NAME_.156
+OBJC_METH_VAR_TYPE_.157
+OBJC_METH_VAR_NAME_.158
+OBJC_METH_VAR_NAME_.159
+OBJC_METH_VAR_NAME_.160
+OBJC_METH_VAR_NAME_.161
+OBJC_METH_VAR_NAME_.162
+OBJC_METH_VAR_NAME_.163
+OBJC_METH_VAR_NAME_.164
+OBJC_METH_VAR_NAME_.165
+OBJC_METH_VAR_NAME_.166
+OBJC_METH_VAR_NAME_.167
+OBJC_METH_VAR_TYPE_.168
+OBJC_METH_VAR_NAME_.169
+OBJC_METH_VAR_TYPE_.170
+OBJC_METH_VAR_NAME_.171
+OBJC_METH_VAR_NAME_.172
+OBJC_METH_VAR_TYPE_.173
+OBJC_METH_VAR_NAME_.174
+OBJC_METH_VAR_NAME_.175
+OBJC_METH_VAR_NAME_.176
+OBJC_METH_VAR_TYPE_.177
+OBJC_METH_VAR_TYPE_.178
+OBJC_METH_VAR_NAME_.179
+OBJC_METH_VAR_NAME_.180
+OBJC_METH_VAR_NAME_.181
+OBJC_METH_VAR_NAME_.182
+OBJC_METH_VAR_NAME_.183
+OBJC_METH_VAR_TYPE_.184
+OBJC_METH_VAR_NAME_.185
+OBJC_METH_VAR_TYPE_.186
+OBJC_METH_VAR_NAME_.187
+OBJC_METH_VAR_TYPE_.188
+OBJC_METH_VAR_NAME_.189
+l_OBJC_$_INSTANCE_METHODS_Matrix
+OBJC_METH_VAR_NAME_.190
+OBJC_METH_VAR_TYPE_.191
+OBJC_METH_VAR_TYPE_.192
+OBJC_METH_VAR_NAME_.193
+OBJC_METH_VAR_TYPE_.194
+l_OBJC_$_INSTANCE_VARIABLES_Matrix
+OBJC_PROP_NAME_ATTR_.195
+OBJC_PROP_NAME_ATTR_.196
+OBJC_PROP_NAME_ATTR_.197
+OBJC_PROP_NAME_ATTR_.198
+OBJC_PROP_NAME_ATTR_.199
+OBJC_PROP_NAME_ATTR_.200
+OBJC_PROP_NAME_ATTR_.201
+OBJC_PROP_NAME_ATTR_.202
+OBJC_PROP_NAME_ATTR_.203
+OBJC_PROP_NAME_ATTR_.204
+OBJC_PROP_NAME_ATTR_.205
+OBJC_PROP_NAME_ATTR_.206
+OBJC_PROP_NAME_ATTR_.207
+OBJC_PROP_NAME_ATTR_.208
+OBJC_PROP_NAME_ATTR_.209
+OBJC_PROP_NAME_ATTR_.210
+OBJC_PROP_NAME_ATTR_.211
+OBJC_PROP_NAME_ATTR_.212
+l_OBJC_$_PROP_LIST_Matrix
+l_OBJC_CLASS_RO_$_Matrix
+-[Matrix copyWithZone:]
+/Users/aegan/code/ML/YCML/YCMatrix/Matrix.m
+-[Matrix initWithCoder:]
+-[Matrix encodeWithCoder:]
+-[Matrix dealloc]
+-[Matrix description]
+-[Matrix isEqualToMatrix:tolerance:]
+-[Matrix isEqual:]
+-[Matrix isSquareMatrix]
+-[Matrix max]
+-[Matrix min]
+-[Matrix product]
+-[Matrix sum]
+-[Matrix count]
+-[Matrix columns]
+-[Matrix rows]
+-[Matrix diagonal]
+-[Matrix numberArray]
+-[Matrix arrayCopy]
+-[Matrix array]
+-[Matrix matrixByUnitizing]
+-[Matrix dotWith:]
+-[Matrix trace]
+-[Matrix elementWiseDivide:]
+-[Matrix elementWiseMultiply:]
+-[Matrix square]
+-[Matrix negate]
+-[Matrix multiplyWithScalar:]
+-[Matrix subtract:]
+-[Matrix add:]
+-[Matrix matrixByElementWisDivideBy:]
+-[Matrix matrixByElementWiseMultiplyWith:]
+-[Matrix matrixByTransposing]
+-[Matrix matrixBySquaring]
+-[Matrix matrixByNegating]
+-[Matrix matrixByMultiplyingWithScalar:AndAdding:]
+-[Matrix matrixByMultiplyingWithScalar:]
+-[Matrix matrixByTransposing:TransposingRight:MultiplyWithRight:Factor:Adding:]
+-[Matrix matrixByTransposingAndMultiplyingWithLeft:]
+-[Matrix matrixByTransposingAndMultiplyingWithRight:]
+-[Matrix matrixByMultiplyingWithRight:AndFactor:]
+-[Matrix matrixByMultiplyingWithRight:AndAdding:]
+-[Matrix matrixByMultiplyingWithRight:AndTransposing:]
+-[Matrix matrixByMultiplyingWithRight:]
+-[Matrix matrixBySubtracting:]
+-[Matrix matrixByAdding:]
+-[Matrix checkSquare]
+-[Matrix checkBoundsForRow:column:]
+-[Matrix incrementAll:]
+-[Matrix i:j:increment:]
+-[Matrix i:j:set:]
+-[Matrix setValue:row:column:]
+-[Matrix i:j:]
+-[Matrix valueAtRow:column:]
++[Matrix identityOfRows:columns:]
++[Matrix matrixFromMatrix:]
++[Matrix matrixFromNSArray:rows:columns:]
++[Matrix matrixFromArray:rows:columns:mode:]
++[Matrix matrixFromArray:rows:columns:]
++[Matrix matrixOfRows:columns:valuesInDiagonal:value:]
++[Matrix matrixOfRows:columns:valueInDiagonal:value:]
++[Matrix matrixOfRows:columns:value:]
++[Matrix dirtyMatrixOfRows:columns:]
++[Matrix onesLike:]
++[Matrix matrixLike:]
++[Matrix matrixOfRows:columns:]
++[Matrix(Manipulate) matrixFromRows:]
++[Matrix(Manipulate) matrixFromColumns:]
+-[Matrix(Manipulate) copyValuesFrom:]
+-[Matrix(Manipulate) row:]
+-[Matrix(Manipulate) rows:]
+__27-[Matrix(Manipulate) rows:]_block_invoke
+-[Matrix(Manipulate) setRow:value:]
+-[Matrix(Manipulate) rowsAsNSArray]
+-[Matrix(Manipulate) rowWiseSplitAtIndexes:]
+__44-[Matrix(Manipulate) rowWiseSplitAtIndexes:]_block_invoke
+__copy_helper_block_.39
+__destroy_helper_block_.40
+-[Matrix(Manipulate) rowWisePartition:]
+-[Matrix(Manipulate) column:]
+-[Matrix(Manipulate) columns:]
+__30-[Matrix(Manipulate) columns:]_block_invoke
+__copy_helper_block_.48
+__destroy_helper_block_.49
+-[Matrix(Manipulate) setColumn:value:]
+-[Matrix(Manipulate) columnsAsNSArray]
+-[Matrix(Manipulate) columnWiseSplitAtIndexes:]
+__47-[Matrix(Manipulate) columnWiseSplitAtIndexes:]_block_invoke
+__copy_helper_block_.53
+__destroy_helper_block_.54
+-[Matrix(Manipulate) columnWisePartition:]
+-[Matrix(Manipulate) matrixByAddingRow:]
+-[Matrix(Manipulate) matrixBySubtractingRow:]
+-[Matrix(Manipulate) matrixByMultiplyingWithRow:]
+-[Matrix(Manipulate) matrixByAddingColumn:]
+-[Matrix(Manipulate) matrixBySubtractingColumn:]
+-[Matrix(Manipulate) matrixByMultiplyingWithColumn:]
+-[Matrix(Manipulate) matrixWithRowsInRange:]
+-[Matrix(Manipulate) matrixWithColumnsInRange:]
+-[Matrix(Manipulate) addRow:]
+-[Matrix(Manipulate) subtractRow:]
+-[Matrix(Manipulate) multiplyRow:]
+-[Matrix(Manipulate) addColumn:]
+-[Matrix(Manipulate) subtractColumn:]
+-[Matrix(Manipulate) multiplyColumn:]
+-[Matrix(Manipulate) appendRow:]
+-[Matrix(Manipulate) appendColumn:]
+-[Matrix(Manipulate) removeRow:]
+-[Matrix(Manipulate) removeColumn:]
+-[Matrix(Manipulate) appendValueAsRow:]
+-[Matrix(Manipulate) matrixByShufflingRows]
+-[Matrix(Manipulate) shuffleRows]
+-[Matrix(Manipulate) matrixByShufflingColumns]
+-[Matrix(Manipulate) shuffleColumns]
+-[Matrix(Manipulate) matrixBySamplingRows:replacement:]
+-[Matrix(Manipulate) matrixBySamplingColumns:replacement:]
+OBJC_CLASSLIST_REFERENCES_$_.11
+.str.12
+_unnamed_cfstring_.13
+.str.20
+OBJC_METH_VAR_NAME_.21
+OBJC_SELECTOR_REFERENCES_.22
+.str.23
+_unnamed_cfstring_.24
+.str.25
+_unnamed_cfstring_.26
+OBJC_CLASSLIST_REFERENCES_$_.27
+OBJC_METH_VAR_NAME_.28
+OBJC_SELECTOR_REFERENCES_.29
+OBJC_METH_VAR_NAME_.30
+OBJC_SELECTOR_REFERENCES_.31
+OBJC_METH_VAR_NAME_.32
+OBJC_SELECTOR_REFERENCES_.33
+OBJC_CLASSLIST_REFERENCES_$_.34
+OBJC_METH_VAR_NAME_.35
+OBJC_SELECTOR_REFERENCES_.36
+OBJC_METH_VAR_NAME_.37
+OBJC_SELECTOR_REFERENCES_.38
+__block_descriptor_tmp.41
+__block_descriptor_tmp.50
+OBJC_METH_VAR_NAME_.51
+OBJC_SELECTOR_REFERENCES_.52
+__block_descriptor_tmp.55
+.str.70
+_unnamed_cfstring_.71
+OBJC_METH_VAR_NAME_.78
+OBJC_SELECTOR_REFERENCES_.79
+OBJC_METH_VAR_TYPE_.81
+OBJC_METH_VAR_TYPE_.82
+OBJC_METH_VAR_TYPE_.85
+OBJC_METH_VAR_NAME_.94
+OBJC_METH_VAR_NAME_.96
+OBJC_METH_VAR_TYPE_.98
+OBJC_METH_VAR_NAME_.103
+OBJC_METH_VAR_TYPE_.105
+OBJC_METH_VAR_NAME_.106
+OBJC_METH_VAR_TYPE_.108
+OBJC_METH_VAR_NAME_.110
+l_OBJC_$_CATEGORY_INSTANCE_METHODS_Matrix_$_Manipulate
+OBJC_METH_VAR_NAME_.114
+OBJC_METH_VAR_NAME_.115
+l_OBJC_$_CATEGORY_CLASS_METHODS_Matrix_$_Manipulate
+l_OBJC_$_CATEGORY_Matrix_$_Manipulate
+NSMakeRange
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSRange.h
+-[Matrix(Manipulate) matrixBySamplingColumns:replacement:]
+/Users/aegan/code/ML/YCML/YCMatrix/Matrix+Manipulate.m
+-[Matrix(Manipulate) matrixBySamplingRows:replacement:]
+-[Matrix(Manipulate) shuffleColumns]
+-[Matrix(Manipulate) matrixByShufflingColumns]
+-[Matrix(Manipulate) shuffleRows]
+-[Matrix(Manipulate) matrixByShufflingRows]
+-[Matrix(Manipulate) appendValueAsRow:]
+-[Matrix(Manipulate) removeColumn:]
+-[Matrix(Manipulate) removeRow:]
+-[Matrix(Manipulate) appendColumn:]
+-[Matrix(Manipulate) appendRow:]
+-[Matrix(Manipulate) multiplyColumn:]
+-[Matrix(Manipulate) subtractColumn:]
+-[Matrix(Manipulate) addColumn:]
+-[Matrix(Manipulate) multiplyRow:]
+-[Matrix(Manipulate) subtractRow:]
+-[Matrix(Manipulate) addRow:]
+-[Matrix(Manipulate) matrixWithColumnsInRange:]
+-[Matrix(Manipulate) matrixWithRowsInRange:]
+-[Matrix(Manipulate) matrixByMultiplyingWithColumn:]
+-[Matrix(Manipulate) matrixBySubtractingColumn:]
+-[Matrix(Manipulate) matrixByAddingColumn:]
+-[Matrix(Manipulate) matrixByMultiplyingWithRow:]
+-[Matrix(Manipulate) matrixBySubtractingRow:]
+-[Matrix(Manipulate) matrixByAddingRow:]
+-[Matrix(Manipulate) columnWisePartition:]
+-[Matrix(Manipulate) columnWiseSplitAtIndexes:]
+-[Matrix(Manipulate) columnsAsNSArray]
+-[Matrix(Manipulate) setColumn:value:]
+-[Matrix(Manipulate) columns:]
+-[Matrix(Manipulate) column:]
+-[Matrix(Manipulate) rowWisePartition:]
+-[Matrix(Manipulate) rowWiseSplitAtIndexes:]
+-[Matrix(Manipulate) rowsAsNSArray]
+-[Matrix(Manipulate) setRow:value:]
+-[Matrix(Manipulate) rows:]
+-[Matrix(Manipulate) row:]
+-[Matrix(Manipulate) copyValuesFrom:]
++[Matrix(Manipulate) matrixFromColumns:]
++[Matrix(Manipulate) matrixFromRows:]
+/Users/aegan/code/ML/YCML/build/YCML.build/Release-iphoneos/YCMatrix.build/DerivedSources/YCMatrix_vers.c
